@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+:root {
+  --primarycolor: #2E2E2E;
+  --primarytwo: #E7BD63;
+  --seconerycolor: #99805C;
+  --thirdcolor: #0B043A;
+   /* --background: #222002; */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-primary: var(--primarycolor);
+  --color-primarytwo: var(--primarytwo);
+  --color-secondery: var(--seconerycolor);
+  --color-third: var(--thirdcolor);
+  --font-dmSans: var(--font-dmSans);
+  --font-roboto: var(--font-roboto);
+}
+
+ body {
+    @apply bg-background ;
+  }
