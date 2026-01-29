@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "./common/Container";
 import Image from "next/image";
-
+import { GoDotFill } from "react-icons/go";
 const Service = () => {
   return (
     <div>
@@ -12,7 +12,7 @@ const Service = () => {
               {/* Header */}
               <div className="text-center mb-12 md:mb-16">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900">
-                  <span className="text-third">SERVICE</span>
+                  <span className="text-third">OUR SERVICE</span>
                 </h2>
                 <div className="w-20 h-1 bg-third mx-auto mt-4 rounded-full"></div>
               </div>
@@ -21,76 +21,78 @@ const Service = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
                 {/* Card 1 - Product Quality Control Inspection */}
                 <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
-                  <div className="relative h-48 md:h-56 overflow-hidden">
-                    <Image
-                      src="/productimagefour.jpg"
-                      alt="productimagefour"
-                      height={300}
-                      width={300}
-                    />
+                  <div className="relative h-48 md:h-56 overflow-hidden bg-red-500">
+                    <div className="relative h-48 md:h-56 w-full overflow-hidden bg-red-500">
+                      <Image
+                        src="/productimagefour.jpg"
+                        alt="Product image four"
+                        fill
+                        className=" object-cover transition-transform duration-500 group-hover:scale-110"
+                      />
+                    </div>
                   </div>
                   <div className="p-6 md:p-7 flex flex-col flex-grow">
-                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 group-hover:text-[#FF6200] transition-colors">
+                    <h3 className="text-[24px] md:text-2xl font-bold text-primary mb-4 group-hover:text-third transition-colors">
                       Product Quality Control Inspection
                     </h3>
-                    <ul className="space-y-2.5 text-gray-600 text-sm md:text-base flex-grow">
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                    <ul className="space-y-2 text-primarytext-sm md:text-base flex-grow">
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
-                        Product Inspection
+                        <span>Product Inspection</span>
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Industrial Product Inspection
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Full Inspection
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Loading Supervision
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Diagnosis & Optimization
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Damage Investigation
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Design, Making And Verification For Gauge
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Process Audit
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Social Responsibility Audit
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Product Audit
                       </li>
@@ -102,59 +104,59 @@ const Service = () => {
                 <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
                   <div className="relative h-48 md:h-56 overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?auto=format&fit=crop&q=80&w=1200"
-                      alt="Supplier Management"
+                      src="/productimagefour.jpg"
+                      alt="productimagefour.jpg"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-br from-blue-700 to-blue-500 opacity-40 group-hover:opacity-50 transition-opacity duration-300"></div>
-                    <div className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-semibold text-gray-800 shadow-sm">
+
+                    <div className=" top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-semibold text-primary shadow-sm">
                       FACTORY EVALUATION
                     </div>
                   </div>
                   <div className="p-6 md:p-7 flex flex-col flex-grow">
-                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 group-hover:text-[#FF6200] transition-colors">
+                    <h3 className="text-[24px] md:text-2xl font-bold text-primary mb-4 group-hover:text-third transition-colors">
                       Supplier Management & Development
                     </h3>
-                    <ul className="space-y-2.5 text-gray-600 text-sm md:text-base flex-grow">
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                    <ul className="space-y-2 text-primary text-sm md:text-base flex-grow">
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Factory Audit
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Supplier Audit
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Management Consulting
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Diagnosis & Optimization For Management System
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Project Quality Management
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Quality Engineering Consulting
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Social Responsibility Consulting
                       </li>
@@ -166,32 +168,31 @@ const Service = () => {
                 <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
                   <div className="relative h-48 md:h-56 overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1581092160607-798c0a6a5924?auto=format&fit=crop&q=80&w=1200"
-                      alt="Government Procurement Acceptance"
+                      src="/productimagefour.jpg"
+                      alt="productimagefour.jpg"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-br from-indigo-600 to-indigo-400 opacity-40 group-hover:opacity-50 transition-opacity duration-300"></div>
                   </div>
                   <div className="p-6 md:p-7 flex flex-col flex-grow">
-                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 group-hover:text-[#FF6200] transition-colors">
+                    <h3 className="text-[24px] md:text-2xl font-bold text-gray-900 mb-4 group-hover:text-third transition-colors">
                       Acceptance of Government Procurement
                     </h3>
-                    <ul className="space-y-2.5 text-gray-600 text-sm md:text-base flex-grow">
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                    <ul className="space-y-2 text-primarytext-sm md:text-base flex-grow">
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Material
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Services
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Engineering
                       </li>
@@ -203,26 +204,25 @@ const Service = () => {
                 <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
                   <div className="relative h-48 md:h-56 overflow-hidden">
                     <img
-                      src="https://images.unsplash.com/photo-1581092160560-1c1e428e9d65?auto=format&fit=crop&q=80&w=1200"
-                      alt="Lab Testing"
+                      src="/productimagefour.jpg"
+                      alt="productimagefour.jpg"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-br from-teal-600 to-teal-400 opacity-40 group-hover:opacity-50 transition-opacity duration-300"></div>
                   </div>
                   <div className="p-6 md:p-7 flex flex-col flex-grow">
-                    <h3 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 group-hover:text-[#FF6200] transition-colors">
+                    <h3 className="text-[24px] md:text-2xl font-bold text-gray-900 mb-4 group-hover:text-third transition-colors">
                       Lab Testing
                     </h3>
-                    <ul className="space-y-2.5 text-gray-600 text-sm md:text-base flex-grow">
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                    <ul className="space-y-2 text-primarytext-sm md:text-base flex-grow">
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Third-party Testing of Classroom Lighting
                       </li>
-                      <li className="flex items-start">
-                        <span className="text-[#FF6200] mr-2 text-lg leading-none">
-                          •
+                      <li className="flex items-center gap-2">
+                        <span className="text-third text-lg flex items-center">
+                          <GoDotFill />
                         </span>
                         Environment
                       </li>
@@ -233,11 +233,14 @@ const Service = () => {
 
               {/* CTA */}
               <div className="mt-12 md:mt-16 text-center">
-                <button
+                {/* <button
                   type="button"
-                  className="inline-flex items-center px-10 py-4 bg-[#FF6200] hover:bg-orange-600 text-white font-semibold text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-orange-300"
+                  className="inline-flex items-center px-10 py-4 bg-third hover:bg-orange-600 text-white font-semibold text-lg rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-4 focus:ring-orange-300"
                 >
                   Get a Quote
+                </button> */}
+                <button class="relative h-[50px] w-40 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:shadow-primary hover:before:h-56 hover:before:w-56">
+                  <span class="relative z-10">Get a Quote</span>
                 </button>
               </div>
             </div>

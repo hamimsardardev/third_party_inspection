@@ -3,6 +3,8 @@ import Banner from '../components/Banner'
 import Chooseme from '../components/Chooseme'
 import Ourstory from '../components/Ourstory'
 import Service from '../components/Service'
+import Whatwedo from '../components/Whatwedo'
+import Audit from '../components/Audit'
 
 const Page = () => {
   return (
@@ -10,7 +12,9 @@ const Page = () => {
       <Banner/>
       <Ourstory/>
       <Chooseme/>
+      <Whatwedo/>
       <Service/>
+      <Audit/>
     </div>
   )
 }
