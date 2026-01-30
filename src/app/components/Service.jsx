@@ -24,7 +24,7 @@ const Service = () => {
                   <div className="relative h-48 md:h-56 overflow-hidden bg-red-500">
                     <div className="relative h-48 md:h-56 w-full overflow-hidden bg-red-500">
                       <Image
-                        src="/productimagefour.jpg"
+                        src="/serviceimageone.jpg"
                         alt="Product image four"
                         fill
                         className=" object-cover transition-transform duration-500 group-hover:scale-110"
@@ -104,8 +104,8 @@ const Service = () => {
                 <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
                   <div className="relative h-48 md:h-56 overflow-hidden">
                     <img
-                      src="/productimagefour.jpg"
-                      alt="productimagefour.jpg"
+                      src="/serviceimagetwo.jpg"
+                      alt="serviceimagetwo.jpg"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
 
@@ -168,8 +168,8 @@ const Service = () => {
                 <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
                   <div className="relative h-48 md:h-56 overflow-hidden">
                     <img
-                      src="/productimagefour.jpg"
-                      alt="productimagefour.jpg"
+                      src="/serviceimagethree.jpg"
+                      alt="serviceimagethree.jpg"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>
@@ -239,8 +239,8 @@ const Service = () => {
                 >
                   Get a Quote
                 </button> */}
-                <button class="relative h-[50px] w-40 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:shadow-primary hover:before:h-56 hover:before:w-56">
-                  <span class="relative z-10">Get a Quote</span>
+                <button className="relative h-[50px] w-40 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:shadow-primary hover:before:h-56 hover:before:w-56">
+                  <span className="relative z-10">Get a Quote</span>
                 </button>
               </div>
             </div>
