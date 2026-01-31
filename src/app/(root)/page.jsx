@@ -7,6 +7,7 @@ import Whatwedo from "../components/Whatwedo";
 import Audit from "../components/Audit";
 import Products_part from "../components/Products_part";
 import Sample_part from "../components/Sample_part";
+import Blog from "../components/Blog";
 
 const Page = () => {
   return (
@@ -19,6 +20,7 @@ const Page = () => {
       <Audit />
       <Products_part />
       <Sample_part/>
+      <Blog/>
     </div>
   );
 };

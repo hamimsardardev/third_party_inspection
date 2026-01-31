@@ -1,13 +1,14 @@
 "use client";
 import React from "react";
-import { CarouselSize } from "./CarouselSize";
 import { motion } from "framer-motion";
+import Container from "./common/Container";
+import { CarouselSize } from "./CarouselSize";
 
 const Blog = () => {
   return (
     <>
       <section>
-        <div className="container">
+        <Container>
           <div className="border-b-1 border-seconerycolor py-[112px]">
             <motion.div
               className="text-center mb-[70px]"
@@ -26,20 +27,17 @@ const Blog = () => {
               </motion.h5>
 
               <motion.p
-                className="font-dmSans text-[18px] font-regular leading-[26px] text-primarytwo w-[540px] mx-auto mt-6"
+                className="font-dmSans text-[18px] font-regular leading-[26px] text-primarytwo w-[740px] mx-auto mt-6"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}
               >
-                Explore my thoughts, tutorials, and experiences in web
-                development. I share practical tips, MERN stack tutorials, and
-                industry best practices to help developers and tech enthusiasts
-                stay updated with modern web technologies.
+                Our blog shares expert insights on quality control, third-party inspections, factory audits, and global supply chain best practices. We publish practical guides, industry updates, and real-world inspection knowledge to help importers, exporters, and manufacturers reduce risk, ensure compliance, and maintain product quality. Whether you’re sourcing globally or managing production locally, our articles are designed to support informed decision-making.
               </motion.p>
             </motion.div>
             <CarouselSize />
           </div>
-        </div>
+        </Container>
       </section>
     </>
   );
