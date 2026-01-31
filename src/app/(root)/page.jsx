@@ -6,6 +6,7 @@ import Service from "../components/Service";
 import Whatwedo from "../components/Whatwedo";
 import Audit from "../components/Audit";
 import Products_part from "../components/Products_part";
+import Sample_part from "../components/Sample_part";
 
 const Page = () => {
   return (
@@ -17,6 +18,7 @@ const Page = () => {
       <Service />
       <Audit />
       <Products_part />
+      <Sample_part/>
     </div>
   );
 };

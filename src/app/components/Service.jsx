@@ -204,8 +204,8 @@ const Service = () => {
                 <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
                   <div className="relative h-48 md:h-56 overflow-hidden">
                     <img
-                      src="/productimagefour.jpg"
-                      alt="productimagefour.jpg"
+                      src="/serviceimagefour.jpg"
+                      alt="serviceimagefour.jpg"
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                   </div>

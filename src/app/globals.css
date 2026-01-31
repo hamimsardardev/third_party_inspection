@@ -18,6 +18,6 @@
   --font-roboto: var(--font-roboto);
 }
 
-body {
+/* body {
   @apply bg-background;
-}
+} */
