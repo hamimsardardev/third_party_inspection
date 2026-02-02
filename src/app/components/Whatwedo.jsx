@@ -4,20 +4,20 @@ import Container from "./common/Container";
 const Whatwedo = () => {
   return (
     <div>
-      <section className="bg-third/60 backdrop-blur-sm shadow-2xl ">
+      <section>
         <Container>
-          <div className="p-8 md:p-12 lg:p-16">
+          <div className="p-8 md:p-12 lg:p-16 backdrop-blur-md shadow-md rounded-xl ">
             <h1 className="text-4xl md:text-5xl font-extrabold text-primary text-center mb-10 tracking-wide">
               What We Do
             </h1>
 
-            <div className="w-[770px] mx-auto  text-primary text-lg md:text-xl leading-relaxed space-y-6 text-center md:text-left">
+            <div className="w-[770px] mx-auto  text-white text-lg md:text-xl leading-relaxed space-y-6 text-center md:text-left">
               <p className="text-center">
-                GTPI is a leading 3rd party inspection company in China,
-                which is fully accredited by ISO9001, ISO 27001, CNAS17020 and
-                AQSIQ. We provide a comprehensive QC service such as product
-                inspection service（IPC, DUPRO and FRI), loading supervision,
-                sample picking, supplier audit, certification, and testing.
+                GTPI is a leading 3rd party inspection company in China, which
+                is fully accredited by ISO9001, ISO 27001, CNAS17020 and AQSIQ.
+                We provide a comprehensive QC service such as product inspection
+                service（IPC, DUPRO and FRI), loading supervision, sample
+                picking, supplier audit, certification, and testing.
               </p>
             </div>
           </div>

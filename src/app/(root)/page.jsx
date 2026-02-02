@@ -8,6 +8,7 @@ import Audit from "../components/Audit";
 import Products_part from "../components/Products_part";
 import Sample_part from "../components/Sample_part";
 import Blog from "../components/Blog";
+import Partners_part from "../components/Partners_part";
 
 const Page = () => {
   return (
@@ -19,6 +20,7 @@ const Page = () => {
       <Service />
       <Audit />
       <Products_part />
+      <Partners_part/>
       <Sample_part/>
       <Blog/>
     </div>

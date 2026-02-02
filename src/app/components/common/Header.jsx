@@ -3,33 +3,39 @@ import React from "react";
 import Container from "./Container";
 import { FiSearch, FiChevronDown } from "react-icons/fi";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 const Header = () => {
   return (
     <>
-      <section>
-        <nav className="w-full bg-white shadow-sm">
+      <header className="fixed w-full z-[9999]">
+        <motion.nav
+          className="absolute w-full"
+          initial={{ y: -80, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{ duration: 0.8, ease: "easeOut" }}
+        >
           <Container>
-            <div className="px-6 py-4 flex items-center justify-between">
+            <div className="flex items-center justify-between px-2 backdrop-blur-md shadow-md rounded-xl">
               <div>
                 <Image src="/Logo.jpg" alt="Logo" height={100} width={200} />
               </div>
 
               {/* NAV ITEMS (Desktop only) */}
               <ul className="flex items-center gap-8 font-semibold text-primary tracking-wide">
-                <li className="flex items-center gap-1 cursor-pointer hover:text-primarytwo transition-colors duration-300">
+                <li className="flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
                   SERVICES <FiChevronDown size={16} />
                 </li>
 
-                <li className="flex items-center gap-1 cursor-pointer hover:text-primarytwo transition-colors duration-300">
+                <li className="flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
                   PRODUCTS <FiChevronDown size={16} />
                 </li>
 
-                <li className="flex items-center gap-1 cursor-pointer hover:text-primarytwo transition-colors duration-300">
+                <li className="flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
                   RESOURCES <FiChevronDown size={16} />
                 </li>
 
-                <li className="flex items-center gap-1 cursor-pointer hover:text-primarytwo transition-colors duration-300">
+                <li className="flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
                   ABOUT US <FiChevronDown size={16} />
                 </li>
 
@@ -42,24 +48,23 @@ const Header = () => {
               <div className="flex items-center gap-6">
                 <FiSearch
                   size={22}
-                  className="cursor-pointer hover:text-primarytwo transition"
+                  className="cursor-pointer text-primary hover:text-white transition"
                 />
 
-                <div className="flex items-center text-primary gap-1 cursor-pointer hover:text-[#F1CB78] transition">
+                <div className="flex items-center text-primary gap-1 cursor-pointer hover:text-white transition">
                   English <FiChevronDown size={16} />
                 </div>
-
-                <button className=" border-2 border-dashed border-primarytwo bg-white px-5 py-2 font-semibold uppercase text-primary hover:text-[#99805C] transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_#99805C] active:translate-x-0 active:translate-y-0 active:rounded-2xl active:shadow-none">
-                  LOG IN
+                <button className=" hover:before:bg-primary rounded-full relative h-[40px] w-24 overflow-hidden border-2 border-white bg-gray-900 px-3 text-white shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-white hover:shadow-gray-300 hover:before:left-0 hover:before:w-full">
+                  <span className="relative z-10 "> LOG IN</span>
                 </button>
-                <button className=" border-2 border-dashed border-primarytwo bg-white px-5 py-2 font-semibold uppercase text-primary hover:text-[#99805C] transition-all duration-300 hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[4px_4px_0px_#99805C] active:translate-x-0 active:translate-y-0 active:rounded-2xl active:shadow-none">
-                  SIGN UP
+                <button className=" hover:before:bg-primary rounded-full relative h-[40px] w-24 overflow-hidden border-2 border-white bg-gray-900 px-3 text-white shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-white hover:shadow-gray-300 hover:before:left-0 hover:before:w-full">
+                  <span className="relative z-10 "> SIGN UP</span>
                 </button>
               </div>
             </div>
           </Container>
-        </nav>
-      </section>
+        </motion.nav>
+      </header>
     </>
   );
 };

@@ -11,10 +11,10 @@ const Ourstory = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
               <div className=" md:space-y-8">
                 <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary">
-                  Our <span className="text-third">Story</span>
+                  Our <span className="text-white">Story</span>
                 </h2>
 
-                <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
+                <p className="text-lg sm:text-xl text-white leading-relaxed">
                   We deploy the most qualified quality engineers and auditors to
                   deliver efficient, reliable, and customized quality assurance
                   solutions. Our diverse portfolio of solutions protects
@@ -24,7 +24,7 @@ const Ourstory = () => {
                 <div className="pt-4">
                   <a
                     href="#"
-                    className="inline-flex items-center justify-center gap-2 text-third font-semibold text-lg hover:text-orange-700 transition-colors group"
+                    className="inline-flex items-center justify-center gap-2 text-primary font-semibold text-lg hover:text-secondery transition-colors group"
                   >
                     Know More
                     <span className="flex items-center transition-transform group-hover:translate-x-1">
@@ -51,7 +51,7 @@ const Ourstory = () => {
                 <div className="absolute inset-0 flex items-center justify-center z-10">
                   <button
                     type="button"
-                    className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-[#FF6200] hover:bg-orange-600 text-white flex items-center justify-center shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-orange-300"
+                    className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-gray-700 hover:bg-gray-900 text-white flex items-center justify-center shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-110 focus:outline-none focus:ring-4 focus:ring-orange-300"
                     aria-label="Play video"
                   >
                     <svg

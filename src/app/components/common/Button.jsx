@@ -44,13 +44,13 @@ const SpotlightButton = () => {
     <motion.button
       whileTap={{ scale: 0.97 }}
       ref={btnRef}
-      className="relative overflow-hidden rounded-lg bg-[#FF6600] px-8 py-3 text-lg font-semibold text-white shadow-md"
+      className="relative cursor-pointer overflow-hidden rounded-lg bg-primary px-8 py-3 text-lg font-semibold text-gray-800 shadow-md"
     >
       <span className="relative z-10">Contact Us</span>
 
       <span
         ref={spanRef}
-        className="pointer-events-none absolute left-[50%] top-[50%] h-28 w-28 -translate-x-[50%] -translate-y-[50%] rounded-full bg-white/30"
+        className="pointer-events-none absolute left-[50%] top-[50%] h-28 w-28 -translate-x-[50%] -translate-y-[50%] rounded-full bg-white/50"
       />
     </motion.button>
   );

@@ -1,19 +1,33 @@
+"use client" 
 import React from "react";
 import Container from "./common/Container";
 import ButtonWrapper from "./common/Button";
+import { TypeAnimation } from "react-type-animation";
 
 const Banner = () => {
   return (
     <div>
       <section className="bg-[url('/banner2.png')] bg-cover bg-center">
-        <div className="bg-black/40 min-h-[70vh] md:min-h-[80vh] flex items-center">
+        <div className="bg-black/70 flex items-center">
           <Container>
-            <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 py-sm-4 md:py-[120px] lg:py-[220px] items-center">
               <div>
-                <h1 className="text-white text-[26px] md:text-[36px] font-bold leading-tight">
+                <h1 className="text-primary text-[26px] md:text-[36px] font-bold leading-tight">
                   Trusted Global Quality
-                  <span className="block text-third">
-                    Control & Inspection Solutions Provider
+                  <span className="block text-white">
+                    <TypeAnimation
+                      sequence={[
+                        "Control & Inspection Solutions Provider",
+                      2000,
+                      "",
+                      
+                      ]}
+                      wrapper="span"
+                      speed={50}
+                      deletionSpeed={30}
+                      style={{ display: "inline-block" }}
+                      repeat={Infinity}
+                    />
                   </span>
                 </h1>
 
