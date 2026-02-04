@@ -4,7 +4,7 @@ import Container from "./common/Container";
 const Sample_part = () => {
   return (
     <div>
-      <section className=" bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-4 sm:px-6 lg:px-8">
+      <section className="py-12 px-4 sm:px-6 lg:px-8">
         <Container>
           <div className="mx-auto max-w-4xl">
             {/* Header / Hero Section */}
@@ -12,7 +12,7 @@ const Sample_part = () => {
               <h1 className="text-[38px] font-bold tracking-tight text-primary sm:text-[24px]">
                 SAMPLE REPORT
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600 max-w-3xl mx-auto">
+              <p className="mt-6 text-lg leading-8 text-white max-w-3xl mx-auto">
                 GIS performs third party inspection, plant evaluation as well as
                 project quality management, product testing and inspection and
                 quality engineering consultation. Check out some examples of the
@@ -21,7 +21,7 @@ const Sample_part = () => {
             </div>
 
             {/* Form Card */}
-            <div className="bg-white shadow-xl rounded-2xl overflow-hidden border border-gray-100">
+            <div className="shadow-xl rounded-2xl overflow-hidden border border-gray-100">
               <div className="px-8 py-10 sm:px-12">
                 <form className="space-y-6">
                   {/* Grid for form fields */}
@@ -29,7 +29,7 @@ const Sample_part = () => {
                     <div>
                       <label
                         htmlFor="company"
-                        className="block text-sm font-medium text-gray-700"
+                        className="block text-sm font-medium text-primary"
                       >
                         Company Name<span className="text-red-500">*</span>
                       </label>
@@ -37,7 +37,7 @@ const Sample_part = () => {
                         type="text"
                         id="company"
                         required
-                        className="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
+                        className="mt-1 block w-full text-white bg-gray-800 rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
                         placeholder="Your company name"
                       />
                     </div>
@@ -45,7 +45,7 @@ const Sample_part = () => {
                     <div>
                       <label
                         htmlFor="name"
-                        className="block text-sm font-medium text-gray-700"
+                        className="block text-sm font-medium text-primary"
                       >
                         Name<span className="text-red-500">*</span>
                       </label>
@@ -53,7 +53,7 @@ const Sample_part = () => {
                         type="text"
                         id="name"
                         required
-                        className="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
+                        className="mt-1 block w-full text-white bg-gray-800 rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
                         placeholder="Full name"
                       />
                     </div>
@@ -61,7 +61,7 @@ const Sample_part = () => {
                     <div>
                       <label
                         htmlFor="email"
-                        className="block text-sm font-medium text-gray-700"
+                        className="block text-sm font-medium text-primary"
                       >
                         Email<span className="text-red-500">*</span>
                       </label>
@@ -69,7 +69,7 @@ const Sample_part = () => {
                         type="email"
                         id="email"
                         required
-                        className="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
+                        className="mt-1 block w-full text-white bg-gray-800 rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
                         placeholder="you@company.com"
                       />
                     </div>
@@ -77,7 +77,7 @@ const Sample_part = () => {
                     <div>
                       <label
                         htmlFor="phone"
-                        className="block text-sm font-medium text-gray-700"
+                        className="block text-sm font-medium text-primary"
                       >
                         Phone<span className="text-red-500">*</span>
                       </label>
@@ -85,7 +85,7 @@ const Sample_part = () => {
                         <select
                           id="country-code"
                           defaultValue="+1"
-                          className="rounded-l-lg border-r-0 border-gray-300 bg-gray-50 text-gray-700 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm px-3 py-2.5"
+                          className="rounded-l-lg border-r-0 text-white bg-gray-800 border-gray-300 bg-gray-50 text-gray-700 focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm px-3 py-2.5"
                         >
                           <option>+1</option>
                           <option>+880</option>
@@ -97,7 +97,7 @@ const Sample_part = () => {
                           type="tel"
                           id="phone"
                           required
-                          className="block w-full rounded-r-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
+                          className="block w-full rounded-r-lg text-white bg-gray-800 border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
                           placeholder="Your phone number"
                         />
                       </div>
@@ -108,13 +108,13 @@ const Sample_part = () => {
                   <div>
                     <label
                       htmlFor="service"
-                      className="block text-sm font-medium text-gray-700"
+                      className="block text-sm font-medium text-primary"
                     >
                       Service
                     </label>
                     <select
                       id="service"
-                      className="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
+                      className="mt-1 block w-full text-white bg-gray-800 rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
                     >
                       <option>Please select a service</option>
                       <option>Third Party Inspection</option>
@@ -129,7 +129,7 @@ const Sample_part = () => {
                   <div>
                     <label
                       htmlFor="message"
-                      className="block text-sm font-medium text-gray-700"
+                      className="block text-sm font-medium text-primary"
                     >
                       Message<span className="text-red-500">*</span>
                     </label>
@@ -137,7 +137,7 @@ const Sample_part = () => {
                       id="message"
                       rows={4}
                       required
-                      className="mt-1 block w-full rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
+                      className="mt-1 block w-full text-white bg-gray-800 rounded-lg border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm py-2.5 px-4 border"
                       placeholder="Tell us more about your request..."
                     ></textarea>
                   </div>
@@ -146,7 +146,7 @@ const Sample_part = () => {
                   <div className="pt-4 text-center">
                     <button
                       type="submit"
-                      className="w-full sm:w-auto px-10 py-3 bg-transparent text-primary font-medium rounded-lg shadow-md hover:bg-third focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-colors duration-200"
+                      className="w-full sm:w-auto px-10 py-3 bg-transparent border border-primary  text-primary font-medium rounded-lg shadow-md hover:bg-primary hover:text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-colors duration-200"
                     >
                       Get a Sample Report
                     </button>
@@ -156,7 +156,7 @@ const Sample_part = () => {
             </div>
 
             {/* Footer note */}
-            <p className="mt-8 text-center text-sm text-gray-500">
+            <p className="mt-8 text-center text-sm text-white">
               We will get back to you shortly with a sample report.
             </p>
           </div>

@@ -7,7 +7,7 @@ import Image from "next/image";
 const Products_part = () => {
   return (
     <div>
-      <section className="bg-gradient-to-b from-gray-50 to-white py-16 md:py-24">
+      <section className=" py-16 md:py-24">
         <Container>
           <div>
             <div className="text-center mb-[30px]">
@@ -15,31 +15,31 @@ const Products_part = () => {
                 PRODUCTS
               </h1>
               <ul className="mt-6 flex flex-wrap justify-center gap-x-8 gap-y-3 text-lg text-primary">
-                <li className="hover:text-third transition-colors cursor-pointer">
+                <li className="hover:text-white transition-colors cursor-pointer">
                   Electronics Products Inspection
                 </li>
-                <li className="hover:text-third transition-colors cursor-pointer">
+                <li className="hover:text-white transition-colors cursor-pointer">
                   Soft Goods
                 </li>
-                <li className="hover:text-third transition-colors cursor-pointer">
+                <li className="hover:text-white transition-colors cursor-pointer">
                   Hard Goods
                 </li>
-                <li className="hover:text-third transition-colors cursor-pointer">
+                <li className="hover:text-white transition-colors cursor-pointer">
                   Mechanical Products
                 </li>
-                <li className="hover:text-third transition-colors cursor-pointer">
+                <li className="hover:text-white transition-colors cursor-pointer">
                   Chemical Products
                 </li>
-                <li className="hover:text-third transition-colors cursor-pointer">
+                <li className="hover:text-white transition-colors cursor-pointer">
                   Food
                 </li>
-                <li className="hover:text-third transition-colors cursor-pointer">
+                <li className="hover:text-white transition-colors cursor-pointer">
                   Agriculture Products
                 </li>
               </ul>
             </div>
 
-            <div className="flex items-center justify-between gap-2 py-8">
+            <div className="bg-white/10 px-3 rounded-[12px] backdrop-blur-md shadow-md flex items-center justify-between gap-2 py-8">
               <div className="w-[30%] space-y-3">
                 <ul className="space-y-1 text-primary text-[16px] md:text-[16px] font-normal">
                   <li className="flex items-center gap-2">

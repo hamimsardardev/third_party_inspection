@@ -9,9 +9,9 @@ const Blog = () => {
     <>
       <section>
         <Container>
-          <div className="border-b-1 border-seconerycolor py-[112px]">
+          <div className="border-b-1 border-t-1 border-gray-600 py-[80px]">
             <motion.div
-              className="text-center mb-[70px]"
+              className="text-center mb-[50px]"
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -27,7 +27,7 @@ const Blog = () => {
               </motion.h5>
 
               <motion.p
-                className="font-dmSans text-[18px] font-regular leading-[26px] text-primarytwo w-[740px] mx-auto mt-6"
+                className="font-dmSans text-[18px] font-regular leading-[26px] text-white w-[940px] mx-auto mt-6"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}

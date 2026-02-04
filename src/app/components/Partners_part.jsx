@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { Marquee } from "@/components/ui/marquee";
+import Container from "./common/Container";
 
 const reviews = [
   { img: "/partnersone.png" },
@@ -34,21 +35,25 @@ const PartnersPart = ({ img }) => {
 
 export default function PartnersMarquee() {
   return (
-    <div className="relative w-full overflow-hidden">
-      <div className="text-center">
-        <h2 className="py-12 text-[32px] font-bold leading-4 text-center">Partners</h2>
-      </div>
-      <Marquee pauseOnHover className="[--duration:20s]">
-        {firstRow.map((item, index) => (
-          <PartnersPart key={index} img={item.img} />
-        ))}
-      </Marquee>
+    <Container>
+      <div className="relative py-12 w-full overflow-hidden border-t-2 border-gray-300">
+        <div className="text-center">
+          <h2 className="relative mb-12 text-[32px] text-primary font-bold leading-4 text-center after:content-[''] after:absolute after:bottom-[-20px] after:left-[633px] after:rounded-[10px] after:bg-primary after:w-0 hover:after:w-12 after:h-1 after:transition-all after:duration-300">
+            Partners
+          </h2>
+        </div>
+        <Marquee pauseOnHover className="[--duration:20s]">
+          {firstRow.map((item, index) => (
+            <PartnersPart key={index} img={item.img} />
+          ))}
+        </Marquee>
 
-      <Marquee reverse pauseOnHover className="[--duration:20s] mt-4">
-        {secondRow.map((item, index) => (
-          <PartnersPart key={index} img={item.img} />
-        ))}
-      </Marquee>
-    </div>
+        <Marquee reverse pauseOnHover className="[--duration:20s] mt-4">
+          {secondRow.map((item, index) => (
+            <PartnersPart key={index} img={item.img} />
+          ))}
+        </Marquee>
+      </div>
+    </Container>
   );
 }

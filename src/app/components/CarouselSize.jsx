@@ -36,10 +36,10 @@ export function CarouselSize() {
                 />
 
                 <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
-                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
+                  <h4 className="font-roboto text-[16px] font-medium text-primary mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-primarytwo [w-264px]">
+                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-white [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -61,10 +61,10 @@ export function CarouselSize() {
                 />
 
                 <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
-                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
+                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-primarytwo [w-264px]">
+                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-white [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -85,10 +85,10 @@ export function CarouselSize() {
                   className="w-full rounded-tl-xl rounded-tr-xl "
                 />
                 <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
-                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
+                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-primarytwo [w-264px]">
+                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-white [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -109,10 +109,10 @@ export function CarouselSize() {
                   className="w-full rounded-tl-xl rounded-tr-xl"
                 />
                 <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
-                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
+                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-primarytwo [w-264px]">
+                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-white [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
@@ -132,10 +132,10 @@ export function CarouselSize() {
                   className="w-full rounded-tl-xl rounded-tr-xl"
                 />
                 <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
-                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] bg-gradient-to-r from-[#2cb86f] to-[#3381bf] bg-clip-text text-transparent mt-6 mb-2">
+                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
-                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-primarytwo [w-264px]">
+                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-white [w-264px]">
                     Lorem ipsum dolor sit consea. Nulla purus arcu
                   </h5>
                 </div>
