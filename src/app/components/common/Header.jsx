@@ -1,9 +1,11 @@
-"use client";
+"use client"
+
 import React from "react";
 import Container from "./Container";
 import { FiSearch, FiChevronDown } from "react-icons/fi";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Header = () => {
   return (
@@ -18,7 +20,9 @@ const Header = () => {
           <Container>
             <div className="flex items-center justify-between px-2 backdrop-blur-md shadow-md rounded-xl">
               <div>
-                <Image src="/Logo.jpg" alt="Logo" height={100} width={200} />
+                <Link href="/">
+                  <Image src="/Logo.jpg" alt="Logo" height={100} width={200} />
+                </Link>
               </div>
 
               {/* NAV ITEMS (Desktop only) */}
@@ -39,8 +43,13 @@ const Header = () => {
                   ABOUT US <FiChevronDown size={16} />
                 </li>
 
-                <li className="cursor-pointer hover:text-primarytwo transition-colors duration-300">
-                  CONTACT
+                <li>
+                  <Link
+                    href="/contact"
+                    className="cursor-pointer hover:text-primarytwo transition-colors duration-300"
+                  >
+                    CONTACT
+                  </Link>
                 </li>
               </ul>
 
