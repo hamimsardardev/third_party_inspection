@@ -16,27 +16,29 @@ const SpotlightButton = () => {
   const spanRef = useRef(null);
 
   useEffect(() => {
+    const btn = btnRef.current;
+    const span = spanRef.current;
+
+    if (!btn || !span) return;
+
     const handleMouseMove = (e) => {
-      const { width } = e.target.getBoundingClientRect();
-      const offset = e.offsetX;
+      const { width } = e.currentTarget.getBoundingClientRect();
+      const offset = e.nativeEvent.offsetX;
       const left = `${(offset / width) * 100}%`;
 
-      spanRef.current.animate({ left }, { duration: 250, fill: "forwards" });
+      span.animate({ left }, { duration: 250, fill: "forwards" });
     };
 
     const handleMouseLeave = () => {
-      spanRef.current.animate(
-        { left: "50%" },
-        { duration: 150, fill: "forwards" },
-      );
+      span.animate({ left: "50%" }, { duration: 150, fill: "forwards" });
     };
 
-    btnRef.current.addEventListener("mousemove", handleMouseMove);
-    btnRef.current.addEventListener("mouseleave", handleMouseLeave);
+    btn.addEventListener("mousemove", handleMouseMove);
+    btn.addEventListener("mouseleave", handleMouseLeave);
 
     return () => {
-      btnRef.current.removeEventListener("mousemove", handleMouseMove);
-      btnRef.current.removeEventListener("mouseleave", handleMouseLeave);
+      btn.removeEventListener("mousemove", handleMouseMove);
+      btn.removeEventListener("mouseleave", handleMouseLeave);
     };
   }, []);
 
@@ -50,7 +52,7 @@ const SpotlightButton = () => {
 
       <span
         ref={spanRef}
-        className="pointer-events-none absolute left-[50%] top-[50%] h-28 w-28 -translate-x-[50%] -translate-y-[50%] rounded-full bg-white/50"
+        className="pointer-events-none absolute left-1/2 top-1/2 h-28 w-28 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/50"
       />
     </motion.button>
   );
