@@ -1,9 +1,12 @@
-import React from 'react'
+import Productinspection_part from "@/app/components/Productinspection";
+import React from "react";
 
 const Service_part = () => {
   return (
-    <div>Service page</div>
-  )
-}
+    <div>
+      <Productinspection_part />
+    </div>
+  );
+};
 
-export default Service_part
+export default Service_part;
