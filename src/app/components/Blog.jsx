@@ -27,7 +27,7 @@ const Blog = () => {
               </motion.h5>
 
               <motion.p
-                className="font-dmSans text-[18px] font-regular leading-[26px] text-white w-[940px] mx-auto mt-6"
+                className="w-auto text-[16px] lg:text-[18px] font-regular leading-[16px] lg:leading-[26px] text-white lg:w-[940px] mx-auto mt-4 lg:mt-6"
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.4 }}

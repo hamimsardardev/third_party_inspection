@@ -11,7 +11,7 @@ const Whatwedo = () => {
               What We Do
             </h1>
 
-            <div className="w-[770px] mx-auto  text-white text-lg md:text-xl leading-relaxed space-y-6 text-center md:text-left">
+            <div className="w-auto lg:w-[770px] mx-auto text-white text-[16px] md:text-xl leading-relaxed space-y-3 lg:space-y-6 text-center md:text-left">
               <p className="text-center">
                 GTPI is a leading 3rd party inspection company in China, which
                 is fully accredited by ISO9001, ISO 27001, CNAS17020 and AQSIQ.

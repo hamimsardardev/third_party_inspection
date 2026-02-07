@@ -35,7 +35,7 @@ const Audit = () => {
                   FACTORY AUDIT
                 </h2>
 
-                <p className="w-[360px] text-[18px] font-medium text-white md:text-[14px] leading-[24px] ">
+                <p className="w-auto lg:w-[360px] text-[18px] font-medium text-white md:text-[14px] leading-[24px] ">
                   Our Factory Assessment Service supervises suppliers with a
                   true 360-degree approach using advanced VR panoramic camera
                   technology. From your office, gain a complete immersive view

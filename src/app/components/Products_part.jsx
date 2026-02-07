@@ -39,8 +39,12 @@ const Products_part = () => {
               </ul>
             </div>
 
-            <div className="bg-white/10 px-3 rounded-[12px] backdrop-blur-md shadow-md flex items-center justify-between gap-2 py-8">
-              <div className="w-[30%] space-y-3">
+            <div
+              className=" flex flex-col lg:flex-row items-start lg:items-center justify-between
+              bg-white/10 px-3 rounded-[12px] backdrop-blur-md shadow-md lg:flex items-center justify-between gap-2 py-8
+              "
+            >
+              <div className="w-auto lg:w-[30%] space-y-3">
                 <ul className="space-y-1 text-primary text-[16px] md:text-[16px] font-normal">
                   <li className="flex items-center gap-2">
                     <GoDotFill className="text-xl" />
@@ -89,12 +93,13 @@ const Products_part = () => {
                   </Link>
                 </div>
               </div>
-              <div className="w-[70%] h-[500px] relative">
+              <div className="w-full lg:w-[65%] relative h-[220px] sm:h-[300px] md:h-[400px] lg:h-[500px]">
                 <Image
                   src="/productimage1.jpeg"
                   alt="Electronics products background"
                   fill
-                  className="object-cover"
+                  className="object-cover rounded-lg"
+                  priority
                 />
               </div>
             </div>
