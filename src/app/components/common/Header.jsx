@@ -10,8 +10,16 @@ import Image from "next/image";
 
 const Header = () => {
   const [navbarshow, setNavbarShow] = useState(false);
+  const [servicesOpen, setServicesOpen] = useState(false);
+  const [productsOpen, setProductsOpen] = useState(false);
+  const [resourcesOpen, setResourcesOpen] = useState(false);
+  const [aboutOpen, setAboutOpen] = useState(false);
+
   function handleshownavbar() {
     setNavbarShow(!navbarshow);
+  }
+  function handleservicesOpen() {
+    setServicesOpen(!servicesOpen);
   }
   return (
     <>
@@ -214,23 +222,25 @@ const Header = () => {
               {navbarshow && (
                 <div className=" absolute top-[35px] right-0 w-full lg:hidden mt-4 flex flex-col items-center gap-2 bg-gray-800 rounded-xl p-4">
                   <ul className="lg:flex items-center gap-8 font-semibold text-primary tracking-wide">
-                    <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
+                    <li
+                      className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300"
+                      onClick={handleservicesOpen}
+                    >
                       <span>
                         SERVICES{" "}
                         <FiChevronDown
                           size={20}
-                          className="inline transition-transform duration-300 group-hover:rotate-180"
+                          className={`inline transition-transform duration-300 ${servicesOpen ? "rotate-180" : ""}`}
                         />
                       </span>
-                      <div className="absolute  z-20 top-[20px] left-[-85px] hidden min-w-[300px] rounded-md bg-red-700 shadow-lg group-hover:block">
+                      <div
+                        className={`${servicesOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}
+                      >
                         <ul className="flex flex-col">
                           <li className="px-4 py-2 transition">
-                            <a
-                              className="block hover:underline hover:text-white"
-                              href="#"
-                            >
+                            <Link className="hover:underline" href="/services">
                               Product Quality Inspection
-                            </a>
+                            </Link>
                           </li>
                           <li className="px-4 py-2 transition">
                             <a
