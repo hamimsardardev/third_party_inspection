@@ -21,6 +21,15 @@ const Header = () => {
   function handleservicesOpen() {
     setServicesOpen(!servicesOpen);
   }
+  function handleProductOpen() {
+    setProductsOpen(!productsOpen);
+  }
+  function handleResourcesOpen() {
+    setResourcesOpen(!resourcesOpen);
+  }
+  function handleAboutOpen() {
+    setAboutOpen(!aboutOpen);
+  }
   return (
     <>
       <header className="fixed w-full z-[9999]">
@@ -56,24 +65,30 @@ const Header = () => {
                   <div className="absolute left-0 mt-2 hidden text-primary min-w-[420px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
                     <ul className="flex flex-col">
                       <li className="px-4 py-2 hover:text-white">
-                        <Link className="hover:underline" href="/services">
+                        <Link
+                          className="hover:underline"
+                          href="/productinspection"
+                        >
                           Product Quality Inspection
                         </Link>
                       </li>
                       <li className="px-4 py-2 hover:text-white">
-                        <a className="hover:underline" href="#">
+                        <Link
+                          className="hover:underline"
+                          href="/supliermanagement"
+                        >
                           Supplier Management & Development
-                        </a>
+                        </Link>
                       </li>
                       <li className="px-4 py-2 hover:text-white">
-                        <a className="hover:underline" href="#">
+                        <Link className="hover:underline" href="/goverment">
                           Acceptance of Government Procurement
-                        </a>
+                        </Link>
                       </li>
                       <li className="px-4 py-2 hover:text-white">
-                        <a className="hover:underline" href="#">
+                        <Link className="hover:underline" href="/labtesting">
                           Lab Testing
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -238,47 +253,56 @@ const Header = () => {
                       >
                         <ul className="flex flex-col">
                           <li className="px-4 py-2 transition">
-                            <Link className="hover:underline" href="/services">
+                            <Link
+                              className="hover:underline"
+                              href="/productinspection"
+                            >
                               Product Quality Inspection
                             </Link>
                           </li>
                           <li className="px-4 py-2 transition">
-                            <a
+                            <Link
                               className="block hover:underline hover:text-white"
-                              href="#"
+                              href="/supliermanagement"
                             >
                               Supplier Management & Development
-                            </a>
+                            </Link>
                           </li>
                           <li className="px-4 py-2 transition ">
-                            <a
+                            <Link
                               className="block hover:underline hover:text-white"
-                              href="#"
+                              href="/goverment"
                             >
                               Acceptance of Government Procurement
-                            </a>
+                            </Link>
                           </li>
                           <li className="px-4 py-2 transition">
-                            <a
+                            <Link
                               className="block hover:underline hover:text-white"
-                              href="#"
+                              href="labtesting"
                             >
                               Lab Testing
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
                     </li>
 
-                    <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
+                    <li
+                      className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300"
+                      onClick={handleProductOpen}
+                    >
                       <span>
                         PRODUCTS{" "}
                         <FiChevronDown
                           size={20}
-                          className="inline transition-transform duration-300 group-hover:rotate-180"
+                          className={`inline transition-transform duration-300 ${productsOpen ? "rotate-180" : ""}`}
                         />
                       </span>
-                      <div className="absolute  z-20 top-[20px] left-[-85px] hidden min-w-[300px] rounded-md bg-red-700 shadow-lg group-hover:block">
+
+                      <div
+                        className={`${productsOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}
+                      >
                         <ul className="flex flex-col">
                           <li className="px-4 py-2 hover:text-white">
                             <a className="hover:underline" href="#">
@@ -314,15 +338,20 @@ const Header = () => {
                       </div>
                     </li>
 
-                    <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
+                    <li
+                      className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300"
+                      onClick={handleResourcesOpen}
+                    >
                       <span>
                         RESOURCES{" "}
                         <FiChevronDown
                           size={20}
-                          className="inline transition-transform duration-300 group-hover:rotate-180"
+                          className={`inline transition-transform duration-300 ${resourcesOpen ? "rotate-180" : ""}`}
                         />
                       </span>
-                      <div className="absolute  z-20 top-[20px] left-[-85px] hidden min-w-[300px] rounded-md bg-red-700 shadow-lg group-hover:block">
+                      <div
+                        className={`${resourcesOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}
+                      >
                         <ul className="flex flex-col">
                           <li className="px-4 py-2 hover:text-white">
                             <a className="hover:underline" href="#">
@@ -348,15 +377,18 @@ const Header = () => {
                       </div>
                     </li>
 
-                    <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
+                    <li
+                      className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300"
+                      onClick={handleAboutOpen}
+                    >
                       <span>
                         ABOUT US{" "}
                         <FiChevronDown
                           size={20}
-                          className="inline transition-transform duration-300 group-hover:rotate-180"
+                          className={`inline transition-transform duration-300 ${aboutOpen ? "rotate-180" : ""}`}
                         />
                       </span>
-                      <div className="absolute  z-20 top-[20px] left-[-85px] hidden min-w-[300px] rounded-md bg-red-700 shadow-lg group-hover:block">
+                      <div className={`${aboutOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}>
                         <ul className="flex flex-col">
                           <li className="px-4 py-2 hover:text-white">
                             <a className="hover:underline" href="#">

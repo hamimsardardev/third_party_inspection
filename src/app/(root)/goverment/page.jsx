@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import Container from "./common/Container";
 import Image from "next/image";
-import Sample_part from "./Sample_part";
+import Sample_part from "@/app/components/Sample_part";
+import Container from "@/app/components/common/Container";
 
-const Productinspection_part = () => {
+const Goverment_part = () => {
   return (
     <div>
       {/* ================= Banner Section ================= */}
@@ -12,7 +12,7 @@ const Productinspection_part = () => {
         <Container>
           <div className="py-32 md:py-56">
             <h2 className="text-3xl md:text-4xl text-primary font-semibold leading-tight">
-              Product Quality Control Inspection
+              Acceptance of government procurement
             </h2>
 
             <div className="mt-12">
@@ -30,20 +30,17 @@ const Productinspection_part = () => {
           <div className="flex flex-col lg:flex-row gap-10 mb-16">
             <div className="lg:w-4/5">
               <h3 className="text-primary text-3xl md:text-5xl font-medium mb-6">
-                Product Quality Control Inspection
+                Acceptance of government procurement
               </h3>
 
               <p className="text-white text-base leading-relaxed max-w-[720px]">
-                GIS conducts comprehensive product inspection, industrial
-                product inspection, full inspection and loading supervision. GIS
-                product quality inspection services ensure product quality
-                throughout your entire consumer goods and industrial products
-                supply chain with our unrivaled experience in managing all types
-                of inspection program. Independent inspections of your products,
-                at various stages of the product’s life cycle, will ensure that
-                the quality of your mass production will match that of samples
-                tested and will help you to identify critical defects before
-                products hit the market.
+                PGI Inspection is a leading third-party quality assurance agency
+                based in China, with nearly 20 years of experience in the
+                quality control industry. Over the past two decades, we have
+                built a strong reputation for delivering reliable, efficient,
+                and tailored quality solutions to clients worldwide. At GIS, our
+                Supplier Management & Development Service is designed to help
+                businesses build a robust and dependable supply chain.
               </p>
             </div>
             <div className="lg:w-1/5">
@@ -84,7 +81,7 @@ const Productinspection_part = () => {
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
-                  Product Inspection
+                  Material
                 </div>
               </div>
             </div>
@@ -100,7 +97,7 @@ const Productinspection_part = () => {
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
-                  Industrial Product Inspection
+                  Services
                 </div>
               </div>
             </div>
@@ -116,32 +113,16 @@ const Productinspection_part = () => {
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
-                  Full Inspection
-                </div>
-              </div>
-            </div>
-
-            {/* Card 4 */}
-            <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
-              <div className="relative h-64">
-                <Image
-                  src="/productinspectionbanner.png"
-                  alt="Loading Supervision"
-                  fill
-                  className="object-cover group-hover:scale-105 transition duration-500"
-                />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
-                  Loading Supervision
+                  Engineering
                 </div>
               </div>
             </div>
           </div>
-          <Sample_part/>
+          <Sample_part />
         </Container>
       </section>
     </div>
   );
 };
 
-export default Productinspection_part;
+export default Goverment_part;
