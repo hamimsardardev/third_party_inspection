@@ -87,11 +87,11 @@ const Contact_Part = () => {
                       <div className="group py-3 md:py-4 lg:py-[20px] px-3 md:px-4 lg:px-[20px] border-2 border-primary inline-block rounded-[6px]">
                         <MdOutlineMarkEmailUnread className="h-[32px] w-[32px] text-primary" />
                       </div>
-                      <div>
+                      <div className="">
                         <p className="font-roboto text-[18px] font-normal leading-[20px] mb-1 text-primary">
                           Email:
                         </p>
-                        <h5 className="font-roboto text-[16px] font-medium leading-[24px] text-white">
+                        <h5 className="break-all sm:break-normal font-roboto text-[16px] font-medium leading-[24px] text-white">
                           hamimsardar118677@gmail.com
                         </h5>
                       </div>

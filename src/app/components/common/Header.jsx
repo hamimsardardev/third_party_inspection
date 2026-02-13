@@ -54,14 +54,17 @@ const Header = () => {
                 )}
               </div>
               <ul className="hidden lg:flex items-center gap-8 font-semibold text-primary tracking-wide">
+                <li className="group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
+                  <Link href="/">HOME</Link>
+                </li>
                 <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
-                  <span>
+                  <Link href="/service">
                     SERVICES{" "}
                     <FiChevronDown
                       size={20}
                       className="inline transition-transform duration-300 group-hover:rotate-180"
                     />
-                  </span>
+                  </Link>
                   <div className="absolute left-0 mt-2 hidden text-primary min-w-[420px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
                     <ul className="flex flex-col">
                       <li className="px-4 py-2 hover:text-white">
@@ -95,13 +98,13 @@ const Header = () => {
                 </li>
 
                 <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
-                  <span>
-                    PRODUCTS{" "}
+                  <Link href="/product">
+                    PRODUCTS
                     <FiChevronDown
                       size={20}
                       className="inline transition-transform duration-300 group-hover:rotate-180"
                     />
-                  </span>
+                  </Link>
                   <div className="absolute left-0 mt-2 hidden text-primary min-w-[350px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
                     <ul className="flex flex-col">
                       <li className="px-4 py-2 hover:text-white">
@@ -139,20 +142,15 @@ const Header = () => {
                 </li>
 
                 <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
-                  <span>
+                  <Link href="/">
                     RESOURCES{" "}
                     <FiChevronDown
                       size={20}
                       className="inline transition-transform duration-300 group-hover:rotate-180"
                     />
-                  </span>
+                  </Link>
                   <div className="absolute left-0 mt-2 hidden text-primary min-w-[220px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
                     <ul className="flex flex-col">
-                      <li className="px-4 py-2 hover:text-white">
-                        <a className="hover:underline" href="#">
-                          News
-                        </a>
-                      </li>
                       <li className="px-4 py-2 hover:text-white">
                         <a className="hover:underline" href="#">
                           Blog
@@ -160,12 +158,12 @@ const Header = () => {
                       </li>
                       <li className="px-4 py-2 hover:text-white">
                         <a className="hover:underline" href="#">
-                          Webiners & Events
+                          Sample Feports
                         </a>
                       </li>
                       <li className="px-4 py-2 hover:text-white">
                         <a className="hover:underline" href="#">
-                          Technical Resourse
+                          FAQs
                         </a>
                       </li>
                     </ul>
@@ -388,7 +386,9 @@ const Header = () => {
                           className={`inline transition-transform duration-300 ${aboutOpen ? "rotate-180" : ""}`}
                         />
                       </span>
-                      <div className={`${aboutOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}>
+                      <div
+                        className={`${aboutOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}
+                      >
                         <ul className="flex flex-col">
                           <li className="px-4 py-2 hover:text-white">
                             <a className="hover:underline" href="#">
