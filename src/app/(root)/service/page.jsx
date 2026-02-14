@@ -29,17 +29,17 @@ const Service_part = () => {
         <Container>
           <div className="bg-gray-500">
             <div className="">
-              <ul className="flex justify-between items-center text-[18px] md:text-[16px] font-semibold text-primary">
-                <li className="px-4 sm:px-6 lg:px-8 py-4 hover:text-white hover:bg-primary">
+              <ul className="flex flex-col sm:flex-row flex-wrap sm:justify-between items-start sm:items-center text-[16px] md:text-[18px] font-semibold text-primary">
+                <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
                   <a href="#">Quality Inspection & Supplier Services</a>
                 </li>
-                <li className="px-4 sm:px-6 lg:px-8 py-4 hover:text-white hover:bg-primary">
+                <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
                   <a href="#">Supplier management&development</a>
                 </li>
-                <li className="px-4 sm:px-6 lg:px-8 py-4 hover:text-white hover:bg-primary">
+                <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
                   <a href="#">Acceptance of government procurement</a>
                 </li>
-                <li className="px-4 sm:px-6 lg:px-8 py-4 hover:text-white hover:bg-primary">
+                <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
                   <a href="#">Lab Testing</a>
                 </li>
               </ul>
@@ -61,13 +61,13 @@ const Service_part = () => {
 
               <div className="space-y-6">
                 <div>
-                  <h2 className="text-[36px] lg:text-[48px] md:text-[36px] font-semibold text-white leading-[48px]">
-                    <Link href="/productinspection">
+                  <h2 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[48px] font-semibold text-white leading-[24px] md:leading-[36px] lg:leading-[48px]">
+                    <Link href="/service/productinspection">
                       Product Quality Control Inspection
                     </Link>
                   </h2>
                 </div>
-                <ul className="space-y-1 text-primary text-[18px] leading-relaxed">
+                <ul className="space-y-1 text-primary text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed">
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
                     Product Inspection
@@ -90,7 +90,7 @@ const Service_part = () => {
                   </li>
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
-                    Design, Making And Verification For Gauge
+                    Design, Making And Verification
                   </li>
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
@@ -116,12 +116,12 @@ const Service_part = () => {
               </div>
 
               <div className="space-y-6 order-2 md:order-1">
-                <h2 className="text-[36px] lg:text-[48px] md:text-[36px] font-semibold text-white leading-[48px]">
-                  <Link href="/supliermanagement">
+                <h2 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[48px] font-semibold text-white leading-[24px] md:leading-[36px] lg:leading-[48px]">
+                  <Link href="/service/supliermanagement">
                     Supplier Management & Development
                   </Link>
                 </h2>
-                <ul className="space-y-1 text-primary text-[18px] leading-relaxed">
+                <ul className="space-y-1 text-primary text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed">
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
                     Factory Audit
@@ -132,7 +132,7 @@ const Service_part = () => {
                   </li>
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
-                    Diagnosis & Optimization For Management System
+                    Optimization For Management System
                   </li>
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
@@ -166,12 +166,12 @@ const Service_part = () => {
               </div>
 
               <div className="space-y-6">
-                <h2 className="text-[36px] lg:text-[48px] md:text-[36px] font-semibold text-white leading-[48px]">
-                  <Link href="/goverment">
+                <h2 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[48px] font-semibold text-white leading-[24px] md:leading-[36px] lg:leading-[48px]">
+                  <Link href="/service/goverment">
                     Acceptance of Government Procurement
                   </Link>
                 </h2>
-                <ul className="space-y-1 text-primary text-[18px] leading-relaxed">
+                <ul className="space-y-1 text-primary text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed">
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
                     Material
@@ -199,18 +199,18 @@ const Service_part = () => {
                 />
               </div>
               <div className="space-y-6">
-                <h2 className="text-[36px] lg:text-[48px] md:text-[36px] font-semibold text-white leading-[48px]">
-                  <Link href="/labtestibg">Lab Testing</Link>
+                <h2 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[48px] font-semibold text-white leading-[48px]">
+                  <Link href="/service/labtestibg">Lab Testing</Link>
                 </h2>
-                <ul className="space-y-1 text-primary text-[18px] leading-relaxed">
+                <ul className="space-y-1 text-primary text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed">
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
                     Third-party Testing
                   </li>
 
-                  <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
+                  <li className="flex gap-2 items-center text-start lg:text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
-                    Third-party Testing of Classroom Lighting Environment
+                    Testing of Classroom Lighting Environment
                   </li>
                 </ul>
               </div>

@@ -70,7 +70,7 @@ const Header = () => {
                       <li className="px-4 py-2 hover:text-white">
                         <Link
                           className="hover:underline"
-                          href="/productinspection"
+                          href="/service/productinspection"
                         >
                           Product Quality Inspection
                         </Link>
@@ -78,18 +78,18 @@ const Header = () => {
                       <li className="px-4 py-2 hover:text-white">
                         <Link
                           className="hover:underline"
-                          href="/supliermanagement"
+                          href="/service/supliermanagement"
                         >
                           Supplier Management & Development
                         </Link>
                       </li>
                       <li className="px-4 py-2 hover:text-white">
-                        <Link className="hover:underline" href="/goverment">
+                        <Link className="hover:underline" href="/service/goverment">
                           Acceptance of Government Procurement
                         </Link>
                       </li>
                       <li className="px-4 py-2 hover:text-white">
-                        <Link className="hover:underline" href="/labtesting">
+                        <Link className="hover:underline" href="/service/labtesting">
                           Lab Testing
                         </Link>
                       </li>
@@ -239,13 +239,13 @@ const Header = () => {
                       className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300"
                       onClick={handleservicesOpen}
                     >
-                      <span>
+                      <Link href="/service">
                         SERVICES{" "}
                         <FiChevronDown
                           size={20}
                           className={`inline transition-transform duration-300 ${servicesOpen ? "rotate-180" : ""}`}
                         />
-                      </span>
+                      </Link>
                       <div
                         className={`${servicesOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}
                       >
@@ -253,7 +253,7 @@ const Header = () => {
                           <li className="px-4 py-2 transition">
                             <Link
                               className="hover:underline"
-                              href="/productinspection"
+                              href="/service/productinspection"
                             >
                               Product Quality Inspection
                             </Link>
@@ -261,7 +261,7 @@ const Header = () => {
                           <li className="px-4 py-2 transition">
                             <Link
                               className="block hover:underline hover:text-white"
-                              href="/supliermanagement"
+                              href="/service/supliermanagement"
                             >
                               Supplier Management & Development
                             </Link>
@@ -269,7 +269,7 @@ const Header = () => {
                           <li className="px-4 py-2 transition ">
                             <Link
                               className="block hover:underline hover:text-white"
-                              href="/goverment"
+                              href="/service/goverment"
                             >
                               Acceptance of Government Procurement
                             </Link>
@@ -277,7 +277,7 @@ const Header = () => {
                           <li className="px-4 py-2 transition">
                             <Link
                               className="block hover:underline hover:text-white"
-                              href="labtesting"
+                              href="/service/labtesting"
                             >
                               Lab Testing
                             </Link>
@@ -290,20 +290,20 @@ const Header = () => {
                       className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300"
                       onClick={handleProductOpen}
                     >
-                      <span>
+                      <Link href="/product">
                         PRODUCTS{" "}
                         <FiChevronDown
                           size={20}
                           className={`inline transition-transform duration-300 ${productsOpen ? "rotate-180" : ""}`}
                         />
-                      </span>
+                      </Link>
 
                       <div
                         className={`${productsOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}
                       >
                         <ul className="flex flex-col">
                           <li className="px-4 py-2 hover:text-white">
-                            <a className="hover:underline" href="#">
+                            <a className="hover:underline" href="/product/electronisproduct">
                               Electronics Products Inspection
                             </a>
                           </li>
