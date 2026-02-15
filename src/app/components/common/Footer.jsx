@@ -47,7 +47,7 @@ const Footer = () => {
 
           {/* Main Footer Links */}
           <div className="px-6 py-16 lg:px-8">
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-10">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
               {/* Column 1 */}
               <div>
                 <h4 className="text-primary font-semibold mb-5">Learn More</h4>
@@ -89,16 +89,14 @@ const Footer = () => {
 
               {/* Column 2 */}
               <div>
-                <h4 className="text-primary font-semibold mb-5">
-                  Quality Control Management
-                </h4>
+                <h4 className="text-primary font-semibold mb-5">Service</h4>
                 <ul className="space-y-3 text-white text-sm">
                   <li>
                     <Link
                       href="/aql"
                       className="hover:text-primary transition-colors"
                     >
-                      Acceptable Quality Limit
+                      Product Quality Control Inspection
                     </Link>
                   </li>
                   <li>
@@ -125,35 +123,19 @@ const Footer = () => {
                       Quality Control in Bangladesh
                     </Link>
                   </li>
-                  <li>
-                    <Link
-                      href="/qc-vietnam"
-                      className="hover:text-primary transition-colors"
-                    >
-                      Quality Control in Vietnam
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/inspection-services"
-                      className="hover:text-primary transition-colors"
-                    >
-                      Inspection Services
-                    </Link>
-                  </li>
                 </ul>
               </div>
 
               {/* Column 3 */}
               <div>
-                <h4 className="text-primary font-semibold mb-5">Audits</h4>
+                <h4 className="text-primary font-semibold mb-5">Products</h4>
                 <ul className="space-y-3 text-white text-sm">
                   <li>
                     <Link
                       href="/manufacturing-audit"
                       className="hover:text-primary transition-colors"
                     >
-                      Manufacturing Audit
+                      Electronics Products Inspection
                     </Link>
                   </li>
                   <li>
@@ -161,7 +143,7 @@ const Footer = () => {
                       href="/social-compliance"
                       className="hover:text-primary transition-colors"
                     >
-                      Social Compliance Audit
+                      Soft Goods
                     </Link>
                   </li>
                   <li>
@@ -169,7 +151,7 @@ const Footer = () => {
                       href="/building-safety"
                       className="hover:text-primary transition-colors"
                     >
-                      Building Safety Audit
+                      Hard Goods
                     </Link>
                   </li>
                   <li>
@@ -177,7 +159,7 @@ const Footer = () => {
                       href="/environmental-audit"
                       className="hover:text-primary transition-colors"
                     >
-                      Environmental Audit
+                      Mechanical Products
                     </Link>
                   </li>
                   <li>
@@ -185,7 +167,7 @@ const Footer = () => {
                       href="/energy-audit"
                       className="hover:text-primary transition-colors"
                     >
-                      Energy Audit
+                      Food
                     </Link>
                   </li>
                   <li>
@@ -193,78 +175,12 @@ const Footer = () => {
                       href="/food-safety-audit"
                       className="hover:text-primary transition-colors"
                     >
-                      Food Safety Audit
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/c-tpat"
-                      className="hover:text-primary transition-colors"
-                    >
-                      C-TPAT Audit
+                      Agriculture products
                     </Link>
                   </li>
                 </ul>
               </div>
 
-              {/* Column 4 */}
-              <div>
-                <h4 className="text-primary font-semibold mb-5">
-                  Compliance Testing
-                </h4>
-                <ul className="space-y-3 text-white text-sm">
-                  <li>
-                    <Link
-                      href="/product-compliance"
-                      className="hover:text-primary transition-colors"
-                    >
-                      Product Compliance Consulting
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/chemical-testing"
-                      className="hover:text-primary transition-colors"
-                    >
-                      Chemical Testing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/reach-testing"
-                      className="hover:text-primary transition-colors"
-                    >
-                      REACH Testing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/rohs-testing"
-                      className="hover:text-primary transition-colors"
-                    >
-                      Rohs Testing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/cpsa-testing"
-                      className="hover:text-primary transition-colors"
-                    >
-                      CPSIA Testing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="/ista-testing"
-                      className="hover:text-primary transition-colors"
-                    >
-                      ISTA Package Testing
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
-              {/* Column 5 */}
               <div>
                 <h4 className="text-primary font-semibold mb-5">Corporate</h4>
                 <ul className="space-y-3 text-white text-sm">
