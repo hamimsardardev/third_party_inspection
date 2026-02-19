@@ -66,8 +66,8 @@ const Header = () => {
                     />
                   </Link>
                   <div className="absolute left-0 mt-2 hidden text-primary min-w-[420px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
-                    <ul className="flex flex-col">
-                      <li className="px-4 py-2 hover:text-white">
+                    <ul className="flex flex-col py-2 gap-2">
+                      <li className="px-4 hover:text-white">
                         <Link
                           className="hover:underline"
                           href="/service/productinspection"
@@ -75,7 +75,7 @@ const Header = () => {
                           Product Quality Inspection
                         </Link>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <Link
                           className="hover:underline"
                           href="/service/supliermanagement"
@@ -83,13 +83,19 @@ const Header = () => {
                           Supplier Management & Development
                         </Link>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
-                        <Link className="hover:underline" href="/service/goverment">
+                      <li className="px-4 hover:text-white">
+                        <Link
+                          className="hover:underline"
+                          href="/service/goverment"
+                        >
                           Acceptance of Government Procurement
                         </Link>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
-                        <Link className="hover:underline" href="/service/labtesting">
+                      <li className="px-4 hover:text-white">
+                        <Link
+                          className="hover:underline"
+                          href="/service/labtesting"
+                        >
                           Lab Testing
                         </Link>
                       </li>
@@ -106,35 +112,43 @@ const Header = () => {
                     />
                   </Link>
                   <div className="absolute left-0 mt-2 hidden text-primary min-w-[350px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
-                    <ul className="flex flex-col">
-                      <li className="px-4 py-2 hover:text-white">
-                        <a className="hover:underline" href="#">
+                    <ul className="flex flex-col py-2 gap-2">
+                      <li className="px-4 hover:text-white">
+                        <a
+                          className="hover:underline"
+                          href="/product/electronisproduct"
+                        >
                           Electronics Products Inspection
                         </a>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
-                          Soft Goods
+                          Soft Goods/Textile
                         </a>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
                           Hard Goods
                         </a>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
-                          Chemical Products
+                          Mechanical Products
                         </a>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
-                          Food
+                          Craft & Paper Goods
                         </a>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
-                          Agriculture Products
+                          Footwear
+                        </a>
+                      </li>
+                      <li className="px-4 hover:text-white">
+                        <a className="hover:underline" href="#">
+                          Food & Fruits
                         </a>
                       </li>
                     </ul>
@@ -150,18 +164,18 @@ const Header = () => {
                     />
                   </Link>
                   <div className="absolute left-0 mt-2 hidden text-primary min-w-[220px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
-                    <ul className="flex flex-col">
-                      <li className="px-4 py-2 hover:text-white">
+                    <ul className="flex flex-col py-2 gap-2">
+                      <li className= "px-4 hover:text-white">
                         <a className="hover:underline" href="#">
                           Blog
                         </a>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
                           Sample Feports
                         </a>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
                           FAQs
                         </a>
@@ -179,28 +193,28 @@ const Header = () => {
                     />
                   </span>
                   <div className="absolute left-0 mt-2 hidden text-primary min-w-[320px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
-                    <ul className="flex flex-col">
-                      <li className="px-4 py-2 hover:text-white">
+                    <ul className="flex flex-col py-2 gap-2">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
                           Company
                         </a>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
                           Inspection System
                         </a>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
                           Career
                         </a>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
                           Customer Feedback
                         </a>
                       </li>
-                      <li className="px-4 py-2 hover:text-white">
+                      <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
                           Team Building
                         </a>
@@ -249,8 +263,8 @@ const Header = () => {
                       <div
                         className={`${servicesOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}
                       >
-                        <ul className="flex flex-col">
-                          <li className="px-4 py-2 transition">
+                        <ul className="flex flex-col py-2 gap-2">
+                          <li className="px-4 transition">
                             <Link
                               className="hover:underline"
                               href="/service/productinspection"
@@ -258,7 +272,7 @@ const Header = () => {
                               Product Quality Inspection
                             </Link>
                           </li>
-                          <li className="px-4 py-2 transition">
+                          <li className="px-4 transition">
                             <Link
                               className="block hover:underline hover:text-white"
                               href="/service/supliermanagement"
@@ -266,7 +280,7 @@ const Header = () => {
                               Supplier Management & Development
                             </Link>
                           </li>
-                          <li className="px-4 py-2 transition ">
+                          <li className="px-4 transition ">
                             <Link
                               className="block hover:underline hover:text-white"
                               href="/service/goverment"
@@ -274,14 +288,14 @@ const Header = () => {
                               Acceptance of Government Procurement
                             </Link>
                           </li>
-                          <li className="px-4 py-2 transition">
+                          {/* <li className="px-4 py-2 transition">
                             <Link
                               className="block hover:underline hover:text-white"
                               href="/service/labtesting"
                             >
                               Lab Testing
                             </Link>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </li>
@@ -301,35 +315,43 @@ const Header = () => {
                       <div
                         className={`${productsOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}
                       >
-                        <ul className="flex flex-col">
-                          <li className="px-4 py-2 hover:text-white">
-                            <a className="hover:underline" href="/product/electronisproduct">
+                        <ul className="flex flex-col py-2 gap-2">
+                          <li className="px-4 hover:text-white">
+                            <a
+                              className="hover:underline"
+                              href="/product/electronisproduct"
+                            >
                               Electronics Products Inspection
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
-                              Soft Goods
+                              Soft Goods/Textile
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
                               Hard Goods
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
-                              Chemical Products
+                              Mechanical Products
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
-                              Food
+                              Craft & Paper Goods
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
-                              Agriculture Products
+                              Footwear
+                            </a>
+                          </li>
+                          <li className="px-4 hover:text-white">
+                            <a className="hover:underline" href="#">
+                              Food & Fruits
                             </a>
                           </li>
                         </ul>
@@ -350,23 +372,23 @@ const Header = () => {
                       <div
                         className={`${resourcesOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}
                       >
-                        <ul className="flex flex-col">
-                          <li className="px-4 py-2 hover:text-white">
+                        <ul className="flex flex-col py-2 gap-2">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
                               News
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
                               Blog
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
                               Webiners & Events
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
                               Technical Resourse
                             </a>
@@ -389,28 +411,28 @@ const Header = () => {
                       <div
                         className={`${aboutOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}
                       >
-                        <ul className="flex flex-col">
-                          <li className="px-4 py-2 hover:text-white">
+                        <ul className="flex flex-col py-2 gap-2">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
                               Company
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
                               Inspection System
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
                               Career
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
                               Customer Feedback
                             </a>
                           </li>
-                          <li className="px-4 py-2 hover:text-white">
+                          <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
                               Team Building
                             </a>

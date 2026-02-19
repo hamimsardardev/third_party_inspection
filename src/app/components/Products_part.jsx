@@ -19,7 +19,7 @@ const Products_part = () => {
                   Electronics Products Inspection
                 </li>
                 <li className="hover:text-white transition-colors cursor-pointer">
-                  Soft Goods
+                  Soft Goods/Textile
                 </li>
                 <li className="hover:text-white transition-colors cursor-pointer">
                   Hard Goods
@@ -28,14 +28,15 @@ const Products_part = () => {
                   Mechanical Products
                 </li>
                 <li className="hover:text-white transition-colors cursor-pointer">
-                  Chemical Products
+                  Craft & Paper Goods
                 </li>
                 <li className="hover:text-white transition-colors cursor-pointer">
-                  Food
+                  Footwear
                 </li>
                 <li className="hover:text-white transition-colors cursor-pointer">
-                  Agriculture Products
+                  Food & Fruits
                 </li>
+                
               </ul>
             </div>
 

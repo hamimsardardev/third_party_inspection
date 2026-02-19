@@ -17,7 +17,7 @@ const Service = () => {
             </div>
 
             {/* Services Grid - explicit cards, no map */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
               {/* Card 1 - Product Quality Control Inspection */}
               <div className="bg-gray-600 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
                 <div className="relative  overflow-hidden ">
@@ -47,12 +47,24 @@ const Service = () => {
                       </span>
                       Pre-Shipment Inspection
                     </li>
+                    <li className="group flex items-center gap-2 text-primary hover:text-white">
+                      <span className="text-primary text-lg flex items-center group-hover:text-white">
+                        <GoDotFill />
+                      </span>
+                      Sample pick
+                    </li>
 
                     <li className="group flex items-center gap-2 text-primary hover:text-white">
                       <span className="text-primary text-lg flex items-center group-hover:text-white">
                         <GoDotFill />
                       </span>
                       Sample pick inspection
+                    </li>
+                    <li className="group flex items-center gap-2 text-primary hover:text-white">
+                      <span className="text-primary text-lg flex items-center group-hover:text-white">
+                        <GoDotFill />
+                      </span>
+                     Packaging Inspection
                     </li>
                   </ul>
                 </div>
@@ -135,7 +147,7 @@ const Service = () => {
               </div>
 
               {/* Card 4 - Lab Testing */}
-              <div className="bg-gray-600 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
+              {/* <div className="bg-gray-600 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
                 <div className="relative h-48 md:h-56 overflow-hidden">
                   <img
                     src="/serviceimagefour.jpg"
@@ -162,7 +174,7 @@ const Service = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* CTA */}
@@ -173,7 +185,7 @@ const Service = () => {
                 >
                   Get a Quote
                 </button> */}
-              <button className="relative h-[50px] w-40 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:shadow-primary hover:before:h-56 hover:before:w-56">
+              <button className="relative h-[50px] w-40 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-gray-700 before:duration-500 before:ease-out hover:shadow-primary hover:before:h-56 hover:before:w-56 cursor-pointer">
                 <span className="relative z-10">Get a Quote</span>
               </button>
             </div>

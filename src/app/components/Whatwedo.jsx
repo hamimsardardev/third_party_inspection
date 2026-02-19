@@ -11,13 +11,9 @@ const Whatwedo = () => {
               What We Do
             </h1>
 
-            <div className="w-auto lg:w-[770px] mx-auto text-white text-[16px] md:text-xl leading-relaxed space-y-3 lg:space-y-6 text-center md:text-left">
+            <div className="w-auto lg:w-[950px] mx-auto text-white text-[14px] lg:text-[18px] leading-relaxed space-y-3 lg:space-y-6 text-center md:text-left">
               <p className="text-center">
-                GTPI is a leading 3rd party inspection company in China, which
-                is fully accredited by ISO9001, ISO 27001, CNAS17020 and AQSIQ.
-                We provide a comprehensive QC service such as product inspection
-                service（IPC, DUPRO and FRI), loading supervision, sample
-                picking, supplier audit, certification, and testing.
+                Prime Guard Inspection International (PGI INT'I) is an independent quality control and inspection service provider based in Bangladesh, supporting global clients with professional inspection, auditing, and quality assurance solutions. We are committed to reliability, transparency, and precision, ensuring that every shipment, production line, and facility meets required quality expectations and international standards. Our inspections are performed by experienced professionals who deliver detailed reports, high-resolution visuals, and real-time updates from the field. Global coverage – Local expertise Comprehensive inspection & audit services Clear reports, fast delivery, trusted results Trust PGI INT'L to be your eyes on the ground.
               </p>
             </div>
           </div>

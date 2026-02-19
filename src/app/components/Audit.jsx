@@ -31,11 +31,11 @@ const Audit = () => {
 
               {/* Right - Text + Button */}
               <div className="order-1 lg:order-2 text-third space-y-6 md:space-y-8">
-                <h2 className="text-[24px] md:text-[30px] lg:text-[38px] font-semibold tracking-tight">
+                <h2 className="text-[24px] md:text-[30px] lg:text-[38px] text-primary font-semibold tracking-tight">
                   FACTORY AUDIT
                 </h2>
 
-                <p className="w-auto lg:w-[360px] text-[18px] font-medium text-white md:text-[14px] leading-[24px] ">
+                <p className="w-auto lg:w-[560px] text-[16px] lg:text-[24px] font-medium text-white md:text-[18px] leading-[24px] ">
                   Our Factory Assessment Service supervises suppliers with a
                   true 360-degree approach using advanced VR panoramic camera
                   technology. From your office, gain a complete immersive view
@@ -47,7 +47,7 @@ const Audit = () => {
                 <div>
                   <button
                     type="button"
-                    className="relative h-[50px] w-40 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:shadow-primary hover:before:h-56 hover:before:w-56"
+                    className="relative h-[50px] w-40 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-2xl transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-gray-600 before:duration-500 before:ease-out hover:shadow-primary hover:before:h-56 hover:before:w-56 cursor-pointer"
                   >
                     <span className="relative z-10 flex items-center gap-2">
                       Learn More
