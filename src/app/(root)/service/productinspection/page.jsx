@@ -16,7 +16,7 @@ const Productinspection_part = () => {
             </h2>
 
             <div className="mt-12">
-              <button className="relative h-[50px] w-44 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56">
+              <button className="relative h-[50px] w-44 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-gray-700 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56 cursor-pointer">
                 <span className="relative z-10">Get a Sample Report</span>
               </button>
             </div>
@@ -84,12 +84,27 @@ const Productinspection_part = () => {
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                  Pre-production Inspection
+                </div>
+              </div>
+            </div>
+            {/* Card 2 */}
+            <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
+              <div className="relative h-64">
+                <Image
+                  src="/productinspectionbanner.png"
+                  alt="Product Inspection"
+                  fill
+                  className="object-cover group-hover:scale-105 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-black/30" />
+                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   During Production Inspection
                 </div>
               </div>
             </div>
 
-            {/* Card 2 */}
+            {/* Card 3 */}
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
@@ -105,7 +120,7 @@ const Productinspection_part = () => {
               </div>
             </div>
 
-            {/* Card 3 */}
+            {/* Card 4 */}
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
@@ -117,6 +132,21 @@ const Productinspection_part = () => {
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   Sample pick inspection
+                </div>
+              </div>
+            </div>
+            {/* Card 5 */}
+            <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
+              <div className="relative h-64">
+                <Image
+                  src="/productinspectionbanner.png"
+                  alt="Full Inspection"
+                  fill
+                  className="object-cover group-hover:scale-105 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-black/30" />
+                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                 Packaging Inspection
                 </div>
               </div>
             </div>

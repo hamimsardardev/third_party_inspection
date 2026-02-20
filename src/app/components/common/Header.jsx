@@ -90,15 +90,7 @@ const Header = () => {
                         >
                           Acceptance of Government Procurement
                         </Link>
-                      </li>
-                      <li className="px-4 hover:text-white">
-                        <Link
-                          className="hover:underline"
-                          href="/service/labtesting"
-                        >
-                          Lab Testing
-                        </Link>
-                      </li>
+                      </li>                     
                     </ul>
                   </div>
                 </li>
@@ -122,17 +114,17 @@ const Header = () => {
                         </a>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <a className="hover:underline" href="#">
+                        <a className="hover:underline" href="/product/softgoods">
                           Soft Goods/Textile
                         </a>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <a className="hover:underline" href="#">
+                        <a className="hover:underline" href="/product/hardgoods">
                           Hard Goods
                         </a>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <a className="hover:underline" href="#">
+                        <a className="hover:underline" href="/product/mechanicalproduct">
                           Mechanical Products
                         </a>
                       </li>

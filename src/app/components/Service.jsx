@@ -2,6 +2,7 @@ import React from "react";
 import Container from "./common/Container";
 import Image from "next/image";
 import { GoDotFill } from "react-icons/go";
+import Link from "next/link";
 const Service = () => {
   return (
     <div>
@@ -32,9 +33,20 @@ const Service = () => {
                 </div>
                 <div className="p-6 md:p-7 flex flex-col flex-grow">
                   <h3 className="text-[24px] md:text-2xl font-bold text-primary mb-4 cursor-pointer hover:text-white transition-colors">
-                    Product Quality Inspection
+                    <Link
+                      className="hover:underline"
+                      href="/service/productinspection"
+                    >
+                      Product Quality Inspection
+                    </Link>
                   </h3>
                   <ul className="space-y-2 text-primary text-sm md:text-base cursor-pointer">
+                    <li className="group flex items-center gap-2 text-primary hover:text-white">
+                      <span className="text-primary text-lg flex items-center group-hover:text-white">
+                        <GoDotFill />
+                      </span>
+                      Pre-production Inspection
+                    </li>
                     <li className="group flex items-center gap-2 text-primary hover:text-white">
                       <span className="text-primary text-lg flex items-center group-hover:text-white">
                         <GoDotFill />
@@ -47,12 +59,6 @@ const Service = () => {
                       </span>
                       Pre-Shipment Inspection
                     </li>
-                    <li className="group flex items-center gap-2 text-primary hover:text-white">
-                      <span className="text-primary text-lg flex items-center group-hover:text-white">
-                        <GoDotFill />
-                      </span>
-                      Sample pick
-                    </li>
 
                     <li className="group flex items-center gap-2 text-primary hover:text-white">
                       <span className="text-primary text-lg flex items-center group-hover:text-white">
@@ -64,7 +70,7 @@ const Service = () => {
                       <span className="text-primary text-lg flex items-center group-hover:text-white">
                         <GoDotFill />
                       </span>
-                     Packaging Inspection
+                      Packaging Inspection
                     </li>
                   </ul>
                 </div>
@@ -78,14 +84,15 @@ const Service = () => {
                     alt="serviceimagetwo.jpg"
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
                   />
-
-                  <div className=" top-4 left-4 bg-white/90 backdrop-blur-sm px-4 py-1.5 rounded-full text-sm font-semibold text-primary shadow-sm">
-                    FACTORY EVALUATION
-                  </div>
                 </div>
                 <div className="p-6 md:p-7 flex flex-col flex-grow cursor-pointer">
                   <h3 className="text-[24px] md:text-2xl font-bold text-primary mb-4 hover:text-white transition-colors">
-                    Supplier Management & Development
+                    <Link
+                      className="hover:underline"
+                      href="/service/supliermanagement"
+                    >
+                      Supplier Management & Development
+                    </Link>
                   </h3>
                   <ul className="space-y-2 text-primary text-sm md:text-base flex-grow cursor-pointer">
                     <li className="group flex items-center gap-2 text-primary hover:text-white cursor-pointer">
@@ -121,7 +128,9 @@ const Service = () => {
                 </div>
                 <div className="p-6 md:p-7 flex flex-col flex-grow  cursor-pointer">
                   <h3 className="text-[24px] md:text-2xl font-bold text-primary mb-4 hover:text-white transition-colors">
-                    Acceptance of Government Procurement
+                    <Link className="hover:underline" href="/service/goverment">
+                      Acceptance of Government Procurement
+                    </Link>
                   </h3>
                   <ul className="space-y-2 text-primarytext-sm md:text-base flex-grow cursor-pointer">
                     <li className="group flex items-center gap-2 text-primary hover:text-white">

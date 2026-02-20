@@ -4,28 +4,19 @@ import Image from "next/image";
 import Container from "@/app/components/common/Container";
 import Sample_part from "@/app/components/Sample_part";
 
-const Softgoods_part = () => {
+const Mechanical_part = () => {
   return (
     <div>
       {/* ================= Banner Section ================= */}
-      <div>
-        <section className="bg-[url('/softgoodsbanner.png')] bg-cover bg-center">
-          <div className="bg-gray-900/80">
+      <section className="bg-[url('/mechanicalproductbanner.png')] bg-cover bg-center">
+       <div className="bg-gray-900/80">
             <Container>
               <div className="space-y-4 py-32 md:py-56">
                 <h2 className="text-3xl md:text-4xl text-primary font-semibold leading-tight">
-                  Soft Goods/Textile
+                 Mechanical Products
                 </h2>
                 <p className="w-auto md:w-[420px] lg:w-[720px] text-[16px] md:text-[16px] lg:text-[18px] text-white font-normal leading-tight">
-                  Soft goods inspection is a quality control process that
-                  ensures apparel and textile products meet required standards
-                  before shipment. It includes fabric checking, stitching
-                  inspection, measurement verification, defect detection, and
-                  packaging review. By following AQL standards and conducting
-                  inspections during production and final stages, manufacturers
-                  can reduce defects, ensure compliance, protect brand
-                  reputation, and deliver consistent, high-quality products to
-                  customers.
+                  PGI Inspection provides third-party quality control and quality assurance services enable you to ensure quality and safety in mechanical products with a variety of goods like electromechanical device, machine parts, auto parts, pump, and die casting to support your regulatory compliance in different consumer markets.
                 </p>
 
                 <div>
@@ -36,17 +27,20 @@ const Softgoods_part = () => {
               </div>
             </Container>
           </div>
-        </section>
-      </div>
+      </section>
 
       {/* ================= Content Section ================= */}
       <section className="pt-12 md:pt-20">
         <Container>
-          <div className="flex flex-col lg:flex-row gap-10 mb-16 justify-center items-center">
+          <div className="flex flex-col lg:flex-row gap-10 mb-16">
             <div className="lg:w-4/5">
               <h3 className="text-primary text-3xl md:text-5xl font-medium mb-6">
-               Soft Goods/Textile item we Serve
+               Mechanical Products we Serve
               </h3>
+
+              <p className="text-white text-base leading-relaxed max-w-[820px]">
+                PGI provides professional mechanical product inspection services to ensure that mechanical components and finished products meet quality standards, technical specifications, and safety requirements. Our inspection process includes checking dimensions, material quality, workmanship, assembly accuracy, and overall product functionality. We inspect a wide range of mechanical products such as machinery parts, metal components, tools, fasteners, and industrial equipment. Our goal is to identify defects early, ensure compliance with international standards, and help clients deliver reliable and high-quality mechanical products to the market
+              </p>
             </div>
             <div className="lg:w-1/5">
               <div className="flex justify-center items-center">
@@ -79,15 +73,15 @@ const Softgoods_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/softgoodsimageone.png"
-                  alt="Garments and Apparel Inspection"
+                  src="/product1.jpg"
+                  alt="Product Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
-                  <a className="hover:text-white hover:underline" href="#">
-                    Garments and Apparel Inspection
+                  <a className="hover:text-white hover:underline" href="/product/electronisproduct">
+                    Electronics Products Inspection
                   </a>
                 </div>
               </div>
@@ -97,15 +91,15 @@ const Softgoods_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/softgoodsimagetwo.png"
-                  alt="Footwear Inspection"
+                  src="/product2.jpg"
+                  alt="Industrial Product Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Footwear Inspection
+                    Soft Goods
                   </a>
                 </div>
               </div>
@@ -115,15 +109,15 @@ const Softgoods_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/softgoodsimagethree.png"
-                  alt="Luggage and Bags Inspection"
+                  src="/product3.jpg"
+                  alt="Full Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Luggage and Bags Inspection
+                    Hard Goods
                   </a>
                 </div>
               </div>
@@ -132,15 +126,15 @@ const Softgoods_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/softgoodsimagefour.png"
-                  alt="Fashion Accessories Inspection"
+                  src="/product4.jpg"
+                  alt="Full Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Fashion Accessories Inspection
+                    Mechanical Products
                   </a>
                 </div>
               </div>
@@ -149,15 +143,15 @@ const Softgoods_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/softgoodsimagefive.png"
-                  alt="ome Textile Inspection"
+                  src="/product5.jpg"
+                  alt="Full Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Home Textile Inspection
+                    Chemical Products
                   </a>
                 </div>
               </div>
@@ -166,15 +160,15 @@ const Softgoods_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/softgoodsimagesix.png"
-                  alt="Outdoor Textile Inspection"
+                  src="/product6.jpg"
+                  alt="Full Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Outdoor Textile Inspection
+                    Food
                   </a>
                 </div>
               </div>
@@ -183,15 +177,15 @@ const Softgoods_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/softgoodsimageseven.png"
-                  alt="Fabric Inspection"
+                  src="/product7.jpg"
+                  alt="Full Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Fabric Inspection
+                    Agriculture Products
                   </a>
                 </div>
               </div>
@@ -204,4 +198,4 @@ const Softgoods_part = () => {
   );
 };
 
-export default Softgoods_part;
+export default Mechanical_part;
