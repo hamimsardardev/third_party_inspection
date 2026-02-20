@@ -129,7 +129,7 @@ const Header = () => {
                         </a>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <a className="hover:underline" href="#">
+                        <a className="hover:underline" href="/product/craftpaper">
                           Craft & Paper Goods
                         </a>
                       </li>
@@ -215,7 +215,7 @@ const Header = () => {
                   </div>
                 </li>
 
-                <li className="cursor-pointer hover:text-primarytwo transition-colors duration-300">
+                <li className="cursor-pointer hover:text-white transition-colors duration-300">
                   <Link href="/contact">CONTACT</Link>
                 </li>
               </ul>
@@ -280,14 +280,7 @@ const Header = () => {
                               Acceptance of Government Procurement
                             </Link>
                           </li>
-                          {/* <li className="px-4 py-2 transition">
-                            <Link
-                              className="block hover:underline hover:text-white"
-                              href="/service/labtesting"
-                            >
-                              Lab Testing
-                            </Link>
-                          </li> */}
+                         
                         </ul>
                       </div>
                     </li>
@@ -317,22 +310,22 @@ const Header = () => {
                             </a>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <a className="hover:underline" href="#">
+                            <a className="hover:underline" href="/product/softgoods">
                               Soft Goods/Textile
                             </a>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <a className="hover:underline" href="#">
+                            <a className="hover:underline" href="/product/hardgoods">
                               Hard Goods
                             </a>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <a className="hover:underline" href="#">
+                            <a className="hover:underline" href="/product/mechanicalproduct">
                               Mechanical Products
                             </a>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <a className="hover:underline" href="#">
+                            <a className="hover:underline" href="/product/craftpaper">
                               Craft & Paper Goods
                             </a>
                           </li>

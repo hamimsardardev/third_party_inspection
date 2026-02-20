@@ -4,24 +4,20 @@ import Image from "next/image";
 import Container from "@/app/components/common/Container";
 import Sample_part from "@/app/components/Sample_part";
 
-const Mechanical_part = () => {
+const Craftpaper_part = () => {
   return (
     <div>
       {/* ================= Banner Section ================= */}
-      <section className="bg-[url('/mechanicalproductbanner.png')] bg-cover bg-center">
+      <section className="bg-[url('/craftpaperbannerimage.png')] bg-cover bg-center">
         <div className="bg-gray-900/80">
           <Container>
             <div className="space-y-4 py-32 md:py-56">
-              <h2 className="text-3xl md:text-4xl text-primary font-semibold leading-tight">
-                Mechanical Products
+              <h2 className="text-3xl md:text-4xl text-primary font-semibold leading-tight ">
+                Craft & Paper Goods
               </h2>
-              <p className="w-auto md:w-[420px] lg:w-[720px] text-[16px] md:text-[16px] lg:text-[18px] text-white font-normal leading-tight">
-                PGI Inspection provides third-party quality control and quality
-                assurance services enable you to ensure quality and safety in
-                mechanical products with a variety of goods like
-                electromechanical device, machine parts, auto parts, pump, and
-                die casting to support your regulatory compliance in different
-                consumer markets.
+              <p className="w-auto md:w-[420px] lg:w-[560px] text-[16px] md:text-[16px] lg:text-[18px] text-white font-normal leading-tight">
+                Ensuring quality, safety, and compliance for stationery,
+                packaging, handmade crafts, gift items, and paper products.
               </p>
 
               <div>
@@ -37,25 +33,11 @@ const Mechanical_part = () => {
       {/* ================= Content Section ================= */}
       <section className="pt-12 md:pt-20">
         <Container>
-          <div className="flex flex-col lg:flex-row gap-10 mb-16">
+          <div className="flex flex-col lg:flex-row gap-10 mb-16 justify-center items-center">
             <div className="lg:w-4/5">
               <h3 className="text-primary text-3xl md:text-5xl font-medium mb-6">
-                Mechanical Products we Serve
+                Craft & Paper Goods we Serve
               </h3>
-
-              <p className="text-white text-base leading-relaxed max-w-[820px]">
-                PGI provides professional mechanical product inspection services
-                to ensure that mechanical components and finished products meet
-                quality standards, technical specifications, and safety
-                requirements. Our inspection process includes checking
-                dimensions, material quality, workmanship, assembly accuracy,
-                and overall product functionality. We inspect a wide range of
-                mechanical products such as machinery parts, metal components,
-                tools, fasteners, and industrial equipment. Our goal is to
-                identify defects early, ensure compliance with international
-                standards, and help clients deliver reliable and high-quality
-                mechanical products to the market
-              </p>
             </div>
             <div className="lg:w-1/5">
               <div className="flex justify-center items-center">
@@ -88,18 +70,15 @@ const Mechanical_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/mechanicalimageone.jpg"
-                  alt="Electromechanical device"
+                  src="/craftimageone.jpg"
+                  alt="Stationery & Office Paper Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
-                  <a
-                    className="hover:text-white hover:underline"
-                    href="/product/electronisproduct"
-                  >
-                    Electromechanical device
+                  <a className="hover:text-white hover:underline" href="#">
+                    Stationery & Office Paper Inspection
                   </a>
                 </div>
               </div>
@@ -109,15 +88,15 @@ const Mechanical_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/mechanicalimagetwo.jpg"
-                  alt="Machine parts"
+                  src="/craftimagetwo.jpg"
+                  alt="Gift & Packaging Products Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Machine parts
+                    Gift & Packaging Products Inspection
                   </a>
                 </div>
               </div>
@@ -127,100 +106,69 @@ const Mechanical_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/mechanicalimagethree.jpg"
-                  alt="Auto parts"
+                  src="/craftimagethree.jpg"
+                  alt="Handmade & Craft Items Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Auto parts
+                    Handmade & Craft Items Inspection
                   </a>
                 </div>
               </div>
             </div>
+
             {/* Card 4 */}
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/mechanicalimagefour.jpg"
-                  alt="Pump"
+                  src="/craftimagefour.jpg"
+                  alt="Corrugated & Carton Products Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Pump
+                    Corrugated & Carton Products Inspection
                   </a>
                 </div>
               </div>
             </div>
+
             {/* Card 5 */}
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/mechanicalimagefive.jpg"
-                  alt="Mold"
+                  src="/craftimagefive.jpg"
+                  alt="Printed Materials Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Mold
+                    Printed Materials Inspection
                   </a>
                 </div>
               </div>
             </div>
+
             {/* Card 6 */}
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/mechanicalimagesix.jpg"
-                  alt="Machining parts"
+                  src="/craftimagesix.jpg"
+                  alt="Specialty Paper Products Inspection"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/30" />
                 <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Machining parts
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* Card 7 */}
-            <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
-              <div className="relative h-64">
-                <Image
-                  src="/mechanicalimageseven.jpg"
-                  alt="Die casting"
-                  fill
-                  className="object-cover group-hover:scale-105 transition duration-500"
-                />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
-                  <a className="hover:text-white hover:underline" href="#">
-                    Die casting
-                  </a>
-                </div>
-              </div>
-            </div>
-            {/* Card 8 */}
-            <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
-              <div className="relative h-64">
-                <Image
-                  src="/mechanicalimageeight.jpg"
-                  alt="Stamping parts"
-                  fill
-                  className="object-cover group-hover:scale-105 transition duration-500"
-                />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
-                  <a className="hover:text-white hover:underline" href="#">
-                    Stamping parts
+                    Specialty Paper Products Inspection
                   </a>
                 </div>
               </div>
@@ -233,4 +181,4 @@ const Mechanical_part = () => {
   );
 };
 
-export default Mechanical_part;
+export default Craftpaper_part;

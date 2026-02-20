@@ -35,7 +35,7 @@ export function CarouselSize() {
                   className="w-full rounded-tl-xl rounded-tr-xl"
                 />
 
-                <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
+                <div className="px-6 py-6 bg-third rounded-b-[16px]">
                   <h4 className="font-roboto text-[16px] font-medium text-primary mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
@@ -60,7 +60,7 @@ export function CarouselSize() {
                   className="w-full rounded-tl-xl rounded-tr-xl"
                 />
 
-                <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
+                <div className="px-6 py-6 bg-third rounded-b-[16px]">
                   <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
@@ -84,7 +84,7 @@ export function CarouselSize() {
                   width={312}
                   className="w-full rounded-tl-xl rounded-tr-xl "
                 />
-                <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
+                <div className="px-6 py-6 bg-third rounded-b-[16px]">
                   <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
@@ -108,7 +108,7 @@ export function CarouselSize() {
                   width={312}
                   className="w-full rounded-tl-xl rounded-tr-xl"
                 />
-                <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
+                <div className="px-6 py-6 bg-third rounded-b-[16px]">
                   <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>
@@ -131,7 +131,7 @@ export function CarouselSize() {
                   width={312}
                   className="w-full rounded-tl-xl rounded-tr-xl"
                 />
-                <div className="px-6 py-6 bg-[#1B1448] rounded-b-[16px]">
+                <div className="px-6 py-6 bg-third rounded-b-[16px]">
                   <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
                     22 Oct, 2020 / 246 Comments
                   </h4>

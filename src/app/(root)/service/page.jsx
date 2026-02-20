@@ -39,9 +39,7 @@ const Service_part = () => {
                 <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
                   <a href="#">Acceptance of government procurement</a>
                 </li>
-                <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
-                  <a href="#">Lab Testing</a>
-                </li>
+               
               </ul>
             </div>
           </div>
@@ -188,33 +186,7 @@ const Service_part = () => {
               </div>
             </section>
 
-            {/* Section 4 - Lab Testing */}
-            <section className="grid md:grid-cols-2 gap-8 items-center md:flex-row-reverse">
-              <div className="relative h-64 md:h-80 rounded-xl overflow-hidden shadow-lg order-1 md:order-2">
-                <Image
-                  src="/servicebanner.jpg"
-                  alt="Laboratory testing engineer with equipment"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <div className="space-y-6">
-                <h2 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[48px] font-semibold text-white leading-[48px]">
-                  <Link href="/service/labtestibg">Lab Testing</Link>
-                </h2>
-                <ul className="space-y-1 text-primary text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed">
-                  <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
-                    <GoDotFill />
-                    Third-party Testing
-                  </li>
-
-                  <li className="flex gap-2 items-center text-start lg:text-center cursor-pointer hover:text-white hover:underline">
-                    <GoDotFill />
-                    Testing of Classroom Lighting Environment
-                  </li>
-                </ul>
-              </div>
-            </section>
+            
           </div>
           <Sample_part />
         </Container>
