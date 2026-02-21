@@ -74,10 +74,10 @@ const Electronics_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                   Lighting Inspection
+                    Lighting Inspection
                   </a>
                 </div>
               </div>
@@ -92,10 +92,10 @@ const Electronics_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                   Home Appliances Inspection
+                    Home Appliances Inspection
                   </a>
                 </div>
               </div>
@@ -110,8 +110,8 @@ const Electronics_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Consumer Electronics Inspection
                   </a>
@@ -127,10 +127,10 @@ const Electronics_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                   Mobile Accessories Inspection
+                    Mobile Accessories Inspection
                   </a>
                 </div>
               </div>
@@ -144,8 +144,8 @@ const Electronics_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Medical Device Inspection
                   </a>
@@ -161,16 +161,14 @@ const Electronics_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                   Power Tools Inspection
+                    Power Tools Inspection
                   </a>
                 </div>
               </div>
             </div>
-            {/* Card 7 */}
-            
           </div>
           <Sample_part />
         </Container>

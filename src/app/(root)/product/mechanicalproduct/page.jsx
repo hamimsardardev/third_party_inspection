@@ -93,8 +93,8 @@ const Mechanical_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a
                     className="hover:text-white hover:underline"
                     href="/product/electronisproduct"
@@ -114,8 +114,8 @@ const Mechanical_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Machine parts
                   </a>
@@ -132,8 +132,8 @@ const Mechanical_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Auto parts
                   </a>
@@ -149,8 +149,8 @@ const Mechanical_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Pump
                   </a>
@@ -166,8 +166,8 @@ const Mechanical_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Mold
                   </a>
@@ -183,8 +183,8 @@ const Mechanical_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Machining parts
                   </a>
@@ -200,8 +200,8 @@ const Mechanical_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Die casting
                   </a>
@@ -217,8 +217,8 @@ const Mechanical_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Stamping parts
                   </a>

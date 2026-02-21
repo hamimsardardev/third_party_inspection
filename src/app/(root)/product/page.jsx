@@ -77,8 +77,8 @@ const Product_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="/product/electronisproduct">
                     Electronics Products Inspection
                   </a>
@@ -95,8 +95,8 @@ const Product_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Soft Goods
                   </a>
@@ -113,8 +113,8 @@ const Product_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Hard Goods
                   </a>
@@ -130,8 +130,8 @@ const Product_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Mechanical Products
                   </a>
@@ -147,8 +147,8 @@ const Product_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Chemical Products
                   </a>
@@ -164,8 +164,8 @@ const Product_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Food
                   </a>
@@ -181,8 +181,8 @@ const Product_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Agriculture Products
                   </a>

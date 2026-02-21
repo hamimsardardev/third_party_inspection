@@ -79,9 +79,11 @@ const Goverment_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
-                  Material
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
+                  <a className="hover:text-white hover:underline" href="#">
+                    Material
+                  </a>
                 </div>
               </div>
             </div>
@@ -95,9 +97,11 @@ const Goverment_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
-                  Services
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
+                  <a className="hover:text-white hover:underline" href="#">
+                    Services
+                  </a>
                 </div>
               </div>
             </div>
@@ -111,9 +115,11 @@ const Goverment_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
-                  Engineering
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
+                  <a className="hover:text-white hover:underline" href="#">
+                    Engineering
+                  </a>
                 </div>
               </div>
             </div>

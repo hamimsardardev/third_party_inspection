@@ -76,8 +76,8 @@ const Hardgoods_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Fitness Equipment Inspection
                   </a>
@@ -94,8 +94,8 @@ const Hardgoods_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Baby Products Inspection
                   </a>
@@ -112,8 +112,8 @@ const Hardgoods_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Furniture Inspection
                   </a>
@@ -129,8 +129,8 @@ const Hardgoods_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Garden Tools Inspection
                   </a>
@@ -146,8 +146,8 @@ const Hardgoods_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Hardware and Building Material Inspection
                   </a>
@@ -163,8 +163,8 @@ const Hardgoods_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Home Decoration Products Inspection
                   </a>
@@ -180,8 +180,8 @@ const Hardgoods_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Kitchenware and Tableware Inspection
                   </a>
@@ -197,8 +197,8 @@ const Hardgoods_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Stationery and Office Supply Inspection
                   </a>
@@ -214,8 +214,8 @@ const Hardgoods_part = () => {
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
-                <div className="absolute inset-0 bg-black/30" />
-                <div className="absolute bottom-4 left-4 text-white font-semibold text-lg">
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
                     Toys Quality Control Inspection
                   </a>

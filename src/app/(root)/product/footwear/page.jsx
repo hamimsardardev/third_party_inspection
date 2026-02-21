@@ -4,20 +4,21 @@ import Image from "next/image";
 import Container from "@/app/components/common/Container";
 import Sample_part from "@/app/components/Sample_part";
 
-const Craftpaper_part = () => {
+const Footwear_part = () => {
   return (
     <div>
       {/* ================= Banner Section ================= */}
-      <section className="bg-[url('/craftpaperbannerimage.png')] bg-cover bg-center">
+      <section className="bg-[url('/footwearbanner.png')] bg-cover bg-center">
         <div className="bg-gray-900/80">
           <Container>
             <div className="space-y-4 py-32 md:py-56">
               <h2 className="text-3xl md:text-4xl text-primary font-semibold leading-tight ">
-                Craft & Paper Goods
+                Footwear We Inspect
               </h2>
               <p className="w-auto md:w-[420px] lg:w-[560px] text-[16px] md:text-[16px] lg:text-[18px] text-white font-normal leading-tight">
-                Ensuring quality, safety, and compliance for stationery,
-                packaging, handmade crafts, gift items, and paper products.
+                We provide comprehensive quality inspection services for a wide
+                range of footwear products to ensure durability, comfort,
+                safety, and compliance with international standards
               </p>
 
               <div>
@@ -36,7 +37,7 @@ const Craftpaper_part = () => {
           <div className="flex flex-col lg:flex-row gap-10 mb-16 justify-center items-center">
             <div className="lg:w-4/5">
               <h3 className="text-primary text-3xl md:text-5xl font-medium mb-6">
-                Craft & Paper Goods we Serve
+                Footwear We Inspect we Serve
               </h3>
             </div>
             <div className="lg:w-1/5">
@@ -70,15 +71,15 @@ const Craftpaper_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/craftimageone.jpg"
-                  alt="Stationery & Office Paper Inspection"
+                  src="/footwearone.jpg"
+                  alt="Casual Footwear"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Stationery & Office Paper Inspection
+                    Casual Footwear
                   </a>
                 </div>
               </div>
@@ -88,15 +89,15 @@ const Craftpaper_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/craftimagetwo.jpg"
-                  alt="Gift & Packaging Products Inspection"
+                  src="/footweartwo.jpg"
+                  alt="Formal Footwear"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Gift & Packaging Products Inspection
+                    Formal Footwear
                   </a>
                 </div>
               </div>
@@ -106,15 +107,15 @@ const Craftpaper_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/craftimagethree.jpg"
-                  alt="Handmade & Craft Items Inspection"
+                  src="/footwearthree.jpg"
+                  alt="Women’s Footwear"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Handmade & Craft Items Inspection
+                    Women’s Footwear
                   </a>
                 </div>
               </div>
@@ -124,15 +125,15 @@ const Craftpaper_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/craftimagefour.jpg"
-                  alt="Corrugated & Carton Products Inspection"
+                  src="/footwearfour.jpg"
+                  alt="Sandals & Slippers"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Corrugated & Carton Products Inspection
+                    Sandals & Slippers
                   </a>
                 </div>
               </div>
@@ -142,15 +143,15 @@ const Craftpaper_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/craftimagefive.jpg"
-                  alt="Printed Materials Inspection"
+                  src="/footwearfive.jpg"
+                  alt="Boots"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Printed Materials Inspection
+                    Boots
                   </a>
                 </div>
               </div>
@@ -160,15 +161,49 @@ const Craftpaper_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/craftimagesix.jpg"
-                  alt="Specialty Paper Products Inspection"
+                  src="/footwearsix.jpg"
+                  alt="Safety Footwear"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Specialty Paper Products Inspection
+                    Safety Footwear
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* Card 7 */}
+            <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
+              <div className="relative h-64">
+                <Image
+                  src="/footwearseven.jpg"
+                  alt="Sports Footwear"
+                  fill
+                  className="object-cover group-hover:scale-105 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
+                  <a className="hover:text-white hover:underline" href="#">
+                    Sports Footwear
+                  </a>
+                </div>
+              </div>
+            </div>
+            {/* Card 8 */}
+            <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
+              <div className="relative h-64">
+                <Image
+                  src="/footweareight.jpg"
+                  alt="Kids & Baby Footwear"
+                  fill
+                  className="object-cover group-hover:scale-105 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
+                  <a className="hover:text-white hover:underline" href="#">
+                    Kids & Baby Footwear
                   </a>
                 </div>
               </div>
@@ -181,4 +216,4 @@ const Craftpaper_part = () => {
   );
 };
 
-export default Craftpaper_part;
+export default Footwear_part;

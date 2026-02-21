@@ -1,47 +1,44 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import Sample_part from "@/app/components/Sample_part";
 import Container from "@/app/components/common/Container";
+import Sample_part from "@/app/components/Sample_part";
 
-const Supliermanagement_part = () => {
+const Foodfruits_part = () => {
   return (
     <div>
       {/* ================= Banner Section ================= */}
-      <section className="bg-[url('/productinspectionbanner.png')] bg-cover bg-center">
-        <Container>
-          <div className="py-32 md:py-56">
-            <h2 className="text-3xl md:text-4xl text-primary font-semibold leading-tight">
-              Supplier Management & Development
-            </h2>
+      <section className="bg-[url('/foodfruitsbanner.png')] bg-cover bg-center">
+        <div className="bg-gray-900/80">
+          <Container>
+            <div className="space-y-4 py-32 md:py-56">
+              <h2 className="text-3xl md:text-4xl text-primary font-semibold leading-tight ">
+                Food & Fruits We Inspect
+              </h2>
+              <p className="w-auto md:w-[420px] lg:w-[560px] text-[16px] md:text-[16px] lg:text-[18px] text-white font-normal leading-tight">
+                We provide comprehensive inspection services for fresh produce
+                and food products to ensure quality, safety, hygiene, and
+                compliance with international import standards.
+              </p>
 
-            <div className="mt-12">
-              <button className="relative h-[50px] w-44 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-gray-700 before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56 cursor-pointer">
-                <span className="relative z-10">Get a Sample Report</span>
-              </button>
+              <div>
+                <button className="relative h-[50px] w-44 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56 cursor-pointer">
+                  <span className="relative z-10">Get a Sample Report</span>
+                </button>
+              </div>
             </div>
-          </div>
-        </Container>
+          </Container>
+        </div>
       </section>
 
       {/* ================= Content Section ================= */}
       <section className="pt-12 md:pt-20">
         <Container>
-          <div className="flex flex-col lg:flex-row gap-10 mb-16">
+          <div className="flex flex-col lg:flex-row gap-10 mb-16 justify-center items-center">
             <div className="lg:w-4/5">
               <h3 className="text-primary text-3xl md:text-5xl font-medium mb-6">
-                Supplier Management & Development
+                Food & Fruits we Serve
               </h3>
-
-              <p className="text-white text-base leading-relaxed max-w-[720px]">
-                PGI Inspection is a leading third-party quality assurance agency
-                based in China, with nearly 20 years of experience in the
-                quality control industry. Over the past two decades, we have
-                built a strong reputation for delivering reliable, efficient,
-                and tailored quality solutions to clients worldwide. At GIS, our
-                Supplier Management & Development Service is designed to help
-                businesses build a robust and dependable supply chain.
-              </p>
             </div>
             <div className="lg:w-1/5">
               <div className="flex justify-center items-center">
@@ -74,15 +71,15 @@ const Supliermanagement_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/productinspectionbanner.png"
-                  alt="Product Inspection"
+                  src="/foodfruitsone.jpg"
+                  alt="Fresh Fruits"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Factory Audit
+                    Fresh Fruits
                   </a>
                 </div>
               </div>
@@ -92,15 +89,15 @@ const Supliermanagement_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/productinspectionbanner.png"
-                  alt="Industrial Product Inspection"
+                  src="/foodfruitstwo.jpg"
+                  alt="Fresh Vegetables"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Supplier Audit
+                    Fresh Vegetables
                   </a>
                 </div>
               </div>
@@ -110,15 +107,51 @@ const Supliermanagement_part = () => {
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
-                  src="/productinspectionbanner.png"
-                  alt="Full Inspection"
+                  src="/foodfruitsthree.jpg"
+                  alt="Processed & Packed Food"
                   fill
                   className="object-cover group-hover:scale-105 transition duration-500"
                 />
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Management Consulting
+                    Processed & Packed Food
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Card 4 */}
+            <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
+              <div className="relative h-64">
+                <Image
+                  src="/foodfruitsfour.jpg"
+                  alt="Dairy & Beverage Products"
+                  fill
+                  className="object-cover group-hover:scale-105 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
+                  <a className="hover:text-white hover:underline" href="#">
+                    Dairy & Beverage Products
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Card 5 */}
+            <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
+              <div className="relative h-64">
+                <Image
+                  src="/foodfruitsfive.jpg"
+                  alt="Grains & Agricultural Products"
+                  fill
+                  className="object-cover group-hover:scale-105 transition duration-500"
+                />
+                <div className="absolute inset-0 bg-black/50" />
+                <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
+                  <a className="hover:text-white hover:underline" href="#">
+                    Grains & Agricultural Products
                   </a>
                 </div>
               </div>
@@ -131,4 +164,4 @@ const Supliermanagement_part = () => {
   );
 };
 
-export default Supliermanagement_part;
+export default Foodfruits_part;

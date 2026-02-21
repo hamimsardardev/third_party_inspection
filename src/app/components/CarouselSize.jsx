@@ -35,13 +35,21 @@ export function CarouselSize() {
                   className="w-full rounded-tl-xl rounded-tr-xl"
                 />
 
-                <div className="px-6 py-6 bg-third rounded-b-[16px]">
-                  <h4 className="font-roboto text-[16px] font-medium text-primary mt-6 mb-2">
-                    22 Oct, 2020 / 246 Comments
-                  </h4>
-                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-white [w-264px]">
-                    Lorem ipsum dolor sit consea. Nulla purus arcu
-                  </h5>
+                <div className="p-6 bg-gray-700 rounded-b-xl">
+                  <p className="text-sm text-white mb-2">Quality Control</p>
+                  <h3 className="text-primary text-lg font-semibold mb-3 hover:text-white transition">
+                    Complete Guide to Pre-Shipment Inspection
+                  </h3>
+                  <p className="text-white text-sm mb-4">
+                    Learn why PSI is essential before export and how it protects
+                    your business from costly defects.
+                  </p>
+                  <a
+                    href="#"
+                    className="text-primary font-medium hover:text-white hover:underline"
+                  >
+                    Read More →
+                  </a>
                 </div>
               </div>
             </CardContent>
@@ -59,14 +67,21 @@ export function CarouselSize() {
                   width={312}
                   className="w-full rounded-tl-xl rounded-tr-xl"
                 />
-
-                <div className="px-6 py-6 bg-third rounded-b-[16px]">
-                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
-                    22 Oct, 2020 / 246 Comments
-                  </h4>
-                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-white [w-264px]">
-                    Lorem ipsum dolor sit consea. Nulla purus arcu
-                  </h5>
+                <div className="p-6 bg-gray-700 rounded-b-xl">
+                  <p className="text-sm text-white mb-2">Food & Fruits</p>
+                  <h3 className="text-primary text-lg font-semibold mb-3 hover:text-white transition">
+                    Food Safety Inspection Standards for Export
+                  </h3>
+                  <p className="text-white text-sm mb-4">
+                    Discover the key quality and safety checks required for
+                    exporting fresh produce globally.
+                  </p>
+                  <a
+                    href="#"
+                    className="text-primary font-medium hover:text-white hover:underline"
+                  >
+                    Read More →
+                  </a>
                 </div>
               </div>
             </CardContent>
@@ -84,13 +99,21 @@ export function CarouselSize() {
                   width={312}
                   className="w-full rounded-tl-xl rounded-tr-xl "
                 />
-                <div className="px-6 py-6 bg-third rounded-b-[16px]">
-                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
-                    22 Oct, 2020 / 246 Comments
-                  </h4>
-                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-white [w-264px]">
-                    Lorem ipsum dolor sit consea. Nulla purus arcu
-                  </h5>
+                <div className="p-6 bg-gray-700 rounded-b-xl">
+                  <p className="text-sm text-white mb-2">Footwear Inspection</p>
+                  <h3 className="text-primary text-lg font-semibold mb-3 hover:text-white transition">
+                    Footwear Quality Control Checklist
+                  </h3>
+                  <p className="text-white text-sm mb-4">
+                    Essential inspection points to ensure durability, safety,
+                    and compliance in footwear production.
+                  </p>
+                  <a
+                    href="#"
+                    className="text-primary font-medium hover:text-white hover:underline"
+                  >
+                    Read More →
+                  </a>
                 </div>
               </div>
             </CardContent>
@@ -108,13 +131,21 @@ export function CarouselSize() {
                   width={312}
                   className="w-full rounded-tl-xl rounded-tr-xl"
                 />
-                <div className="px-6 py-6 bg-third rounded-b-[16px]">
-                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
-                    22 Oct, 2020 / 246 Comments
-                  </h4>
-                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-white [w-264px]">
-                    Lorem ipsum dolor sit consea. Nulla purus arcu
-                  </h5>
+                <div className="p-6 bg-gray-700 rounded-b-xl">
+                  <p className="text-sm text-white mb-2">Soft Goods/Textile</p>
+                  <h3 className="text-primary text-lg font-semibold mb-3 hover:text-white transition">
+                    Soft Goods/Textile Checklist
+                  </h3>
+                  <p className="text-white text-sm mb-4">
+                    Essential inspection points to ensure durability, safety,
+                    and compliance in footwear production.
+                  </p>
+                  <a
+                    href="#"
+                    className="text-primary font-medium hover:text-white hover:underline"
+                  >
+                    Read More →
+                  </a>
                 </div>
               </div>
             </CardContent>
@@ -131,13 +162,23 @@ export function CarouselSize() {
                   width={312}
                   className="w-full rounded-tl-xl rounded-tr-xl"
                 />
-                <div className="px-6 py-6 bg-third rounded-b-[16px]">
-                  <h4 className="font-roboto text-[16px] font-medium leading-[20px] text-primary mt-6 mb-2">
-                    22 Oct, 2020 / 246 Comments
-                  </h4>
-                  <h5 className="font-roboto text-[18px] font-semibold leading-[24px] text-white [w-264px]">
-                    Lorem ipsum dolor sit consea. Nulla purus arcu
-                  </h5>
+                <div className="p-6 bg-gray-700 rounded-b-xl">
+                  <p className="text-sm text-white mb-2">
+                    Electronics Products Inspection
+                  </p>
+                  <h3 className="text-primary text-lg font-semibold mb-3 hover:text-white transition">
+                    Electronics Products Checklist
+                  </h3>
+                  <p className="text-white text-sm mb-4">
+                    Essential inspection points to ensure durability, safety,
+                    and compliance in footwear production.
+                  </p>
+                  <a
+                    href="#"
+                    className="text-primary font-medium hover:text-white hover:underline"
+                  >
+                    Read More →
+                  </a>
                 </div>
               </div>
             </CardContent>
