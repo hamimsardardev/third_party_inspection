@@ -29,13 +29,13 @@ const Auditservey_part = () => {
         <Container>
           <div className="flex flex-col lg:flex-row gap-10 mb-16">
             <div className="lg:w-4/5">
-              <h3 className="text-primary text-3xl md:text-5xl font-medium mb-6">
+              <h3 className="text-primary text-3xl md:text-5xl font-medium mb-2">
                 Audit & Survey Services
               </h3>
 
               <p className="text-white text-base leading-relaxed max-w-[720px]">
                 Ensuring Supplier Reliability & Operational Excellence
-                <span className="text-white text-base leading-relaxed mt-6">
+                <span className="block text-white text-base leading-relaxed mt-3">
                   We conduct comprehensive factory audits and market surveys to
                   evaluate supplier capability, compliance, and production
                   standards — helping you reduce sourcing risks and build a
