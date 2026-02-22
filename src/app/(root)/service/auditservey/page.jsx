@@ -4,7 +4,7 @@ import Image from "next/image";
 import Sample_part from "@/app/components/Sample_part";
 import Container from "@/app/components/common/Container";
 
-const Supliermanagement_part = () => {
+const Auditservey_part = () => {
   return (
     <div>
       {/* ================= Banner Section ================= */}
@@ -12,7 +12,7 @@ const Supliermanagement_part = () => {
         <Container>
           <div className="py-32 md:py-56">
             <h2 className="text-3xl md:text-4xl text-primary font-semibold leading-tight">
-              Supplier Management & Development
+              Audit & Survey
             </h2>
 
             <div className="mt-12">
@@ -30,17 +30,17 @@ const Supliermanagement_part = () => {
           <div className="flex flex-col lg:flex-row gap-10 mb-16">
             <div className="lg:w-4/5">
               <h3 className="text-primary text-3xl md:text-5xl font-medium mb-6">
-                Supplier Management & Development
+                Audit & Survey Services
               </h3>
 
               <p className="text-white text-base leading-relaxed max-w-[720px]">
-                PGI Inspection is a leading third-party quality assurance agency
-                based in China, with nearly 20 years of experience in the
-                quality control industry. Over the past two decades, we have
-                built a strong reputation for delivering reliable, efficient,
-                and tailored quality solutions to clients worldwide. At GIS, our
-                Supplier Management & Development Service is designed to help
-                businesses build a robust and dependable supply chain.
+                Ensuring Supplier Reliability & Operational Excellence
+                <span className="text-white text-base leading-relaxed mt-6">
+                  We conduct comprehensive factory audits and market surveys to
+                  evaluate supplier capability, compliance, and production
+                  standards — helping you reduce sourcing risks and build a
+                  stronger supply chain.
+                </span>
               </p>
             </div>
             <div className="lg:w-1/5">
@@ -131,4 +131,4 @@ const Supliermanagement_part = () => {
   );
 };
 
-export default Supliermanagement_part;
+export default Auditservey_part;

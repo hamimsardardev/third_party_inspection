@@ -13,7 +13,7 @@ const Header = () => {
   const [servicesOpen, setServicesOpen] = useState(false);
   const [productsOpen, setProductsOpen] = useState(false);
   const [resourcesOpen, setResourcesOpen] = useState(false);
-  const [aboutOpen, setAboutOpen] = useState(false);
+  // const [aboutOpen, setAboutOpen] = useState(false);
 
   function handleshownavbar() {
     setNavbarShow(!navbarshow);
@@ -27,9 +27,9 @@ const Header = () => {
   function handleResourcesOpen() {
     setResourcesOpen(!resourcesOpen);
   }
-  function handleAboutOpen() {
-    setAboutOpen(!aboutOpen);
-  }
+  // function handleAboutOpen() {
+  //   setAboutOpen(!aboutOpen);
+  // }
   return (
     <>
       <header className="fixed w-full z-[9999]">
@@ -78,9 +78,9 @@ const Header = () => {
                       <li className="px-4 hover:text-white">
                         <Link
                           className="hover:underline"
-                          href="/service/supliermanagement"
+                          href="/service/auditservey"
                         >
-                          Supplier Management & Development
+                          Audit & Survey
                         </Link>
                       </li>
                       <li className="px-4 hover:text-white">
@@ -88,7 +88,7 @@ const Header = () => {
                           className="hover:underline"
                           href="/service/goverment"
                         >
-                          Acceptance of Government Procurement
+                          Supplier Management & Development
                         </Link>
                       </li>                     
                     </ul>
@@ -168,7 +168,7 @@ const Header = () => {
                         </Link>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <Link className="hover:underline" href="#">
+                        <Link className="hover:underline" href="/resourses/faqs">
                           FAQs
                         </Link>
                       </li>
@@ -177,14 +177,14 @@ const Header = () => {
                 </li>
 
                 <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
-                  <span>
+                  <Link href="/about">
                     ABOUT US{" "}
-                    <FiChevronDown
+                    {/* <FiChevronDown
                       size={20}
                       className="inline transition-transform duration-300 group-hover:rotate-180"
-                    />
-                  </span>
-                  <div className="absolute left-0 mt-2 hidden text-primary min-w-[320px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
+                    /> */}
+                  </Link>
+                  {/* <div className="absolute left-0 mt-2 hidden text-primary min-w-[320px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
                     <ul className="flex flex-col py-2 gap-2">
                       <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
@@ -212,7 +212,7 @@ const Header = () => {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </li>
 
                 <li className="cursor-pointer hover:text-white transition-colors duration-300">
@@ -267,9 +267,9 @@ const Header = () => {
                           <li className="px-4 transition">
                             <Link
                               className="block hover:underline hover:text-white"
-                              href="/service/supliermanagement"
+                              href="/service/auditservey"
                             >
-                              Supplier Management & Development
+                              Audit & Survey
                             </Link>
                           </li>
                           <li className="px-4 transition ">
@@ -277,7 +277,7 @@ const Header = () => {
                               className="block hover:underline hover:text-white"
                               href="/service/goverment"
                             >
-                              Acceptance of Government Procurement
+                              Supplier Management & Development
                             </Link>
                           </li>
                          
@@ -369,7 +369,7 @@ const Header = () => {
                             </Link>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <Link className="hover:underline" href="/resourses/faq">
+                            <Link className="hover:underline" href="/resourses/faqs">
                               FAQs
                             </Link>
                           </li>                          
@@ -379,16 +379,16 @@ const Header = () => {
 
                     <li
                       className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300"
-                      onClick={handleAboutOpen}
+                      // onClick={handleAboutOpen}
                     >
-                      <span>
+                      <Link href="/about">
                         ABOUT US{" "}
-                        <FiChevronDown
+                        {/* <FiChevronDown
                           size={20}
                           className={`inline transition-transform duration-300 ${aboutOpen ? "rotate-180" : ""}`}
-                        />
-                      </span>
-                      <div
+                        /> */}
+                      </Link>
+                      {/* <div
                         className={`${aboutOpen ? "block" : "hidden"} absolute  z-20 top-[20px] left-[-85px] min-w-[300px] rounded-md bg-gray-700 shadow-lg`}
                       >
                         <ul className="flex flex-col py-2 gap-2">
@@ -418,7 +418,7 @@ const Header = () => {
                             </a>
                           </li>
                         </ul>
-                      </div>
+                      </div> */}
                     </li>
 
                     <li className="cursor-pointer hover:text-primarytwo transition-colors duration-300">

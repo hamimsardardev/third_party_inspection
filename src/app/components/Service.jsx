@@ -20,7 +20,7 @@ const Service = () => {
             {/* Services Grid - explicit cards, no map */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
               {/* Card 1 - Product Quality Control Inspection */}
-              <div className="bg-gray-600 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
+              <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
                 <div className="relative  overflow-hidden ">
                   <div className="relative h-48 md:h-56 w-full overflow-hidden ">
                     <Image
@@ -76,7 +76,7 @@ const Service = () => {
                 </div>
               </div>
               {/* Card 2 - Government Procurement */}
-              <div className="bg-gray-600 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
+              <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
                 <div className="relative h-48 md:h-56 overflow-hidden">
                   <img
                     src="/serviceimagethree.jpg"
@@ -120,7 +120,7 @@ const Service = () => {
               </div>
 
               {/* Card 3 - Supplier Management */}
-              <div className="bg-gray-600 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
+              <div className="bg-gray-800 rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col h-full">
                 <div className="relative h-48 md:h-56 overflow-hidden">
                   <img
                     src="/serviceimagetwo.jpg"

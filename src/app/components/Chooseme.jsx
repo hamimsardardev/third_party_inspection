@@ -14,13 +14,6 @@ const Chooseme = () => {
               </h2>
 
               <div className="flex justify-center md:justify-end">
-                {/* <button
-                  type="button"
-                  className="inline-flex items-center px-6 md:px-8 py-3 md:py-4 bg-white hover:bg-white/50 text-white font-semibold text-base md:text-lg rounded-full shadow-lg transition-all duration-300 transform "
-                >
-                  Get Quotation
-                  
-                </button> */}
                 <button className="group text-base font-semibold relative rounded-full min-h-[50px] w-40 overflow-hidden border-2 border-primary bg-white text-gray-700 shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-0 before:w-1/4 before:bg-primary before:duration-500 after:absolute after:bottom-0 after:right-0 after:h-0 after:w-1/4 after:bg-primary after:duration-500 hover:text-primary hover:before:h-full hover:after:h-full cursor-pointer">
                   <span className="top-0 flex h-full w-full items-center justify-center before:absolute before:bottom-0 before:left-1/4 before:z-0 before:h-0 before:w-1/4 before:bg-primary before:duration-500 after:absolute after:right-1/4 after:top-0 after:z-0 after:h-0 after:w-1/4 after:bg-primary after:duration-500 hover:text-gray-700 group-hover:before:h-full group-hover:after:h-full"></span>
                   <span className="absolute text-base bottom-0 left-0 right-0 top-0 z-10 flex h-full  w-full items-center justify-center group-hover:text-white gap-2">
@@ -83,7 +76,7 @@ const Chooseme = () => {
                     QC
                   </span>
                   <p className="text-white text-base leading-relaxed">
-                    400+ full-time senior inspectors in China and Southeast
+                    50+ full-time senior inspectors in Bangladesh and Southeast
                     Asian countries, as well as Europe countries
                   </p>
                 </div>
