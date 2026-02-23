@@ -10,6 +10,8 @@ const Service_part = () => {
   return (
     <div>
       <section className="bg-[url('/servicebanner.png')] bg-cover bg-center">
+      <div className="bg-black/50">
+
         <Container>
           <div className="py-32 md:py-56">
             <h2 className="text-3xl md:text-4xl text-primary font-semibold leading-tight">
@@ -23,20 +25,21 @@ const Service_part = () => {
             </div>
           </div>
         </Container>
+      </div>
       </section>
 
       <section>
         <Container>
-          <div className="bg-gray-500">
+          <div className="bg-third">
             <div className="">
               <ul className="flex flex-col sm:flex-row flex-wrap sm:justify-between items-start sm:items-center text-[16px] md:text-[18px] font-semibold text-primary">
-                <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
+                <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-third hover:bg-primary transition-all duration-300">
                   <a href="#">Product Quality Inspection</a>
                 </li>
-                <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
+                <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-third hover:bg-primary transition-all duration-300">
                   <a href="#">Audit & Survey</a>
                 </li>
-                <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
+                <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-third hover:bg-primary transition-all duration-300">
                   <a href="#">Supplier Management & Development</a>
                 </li>
               </ul>

@@ -1,8 +1,20 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Container from "./common/Container";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Qutation_form from "./Qutation_form";
 
 const Chooseme = () => {
+  const [getQuotation, setgetQuotation] = useState(false);
+
+  function handleQutationOpen() {
+    setgetQuotation(true);
+  }
+
+  function handleQutationClose() {
+    setgetQuotation(false);
+  }
   return (
     <div>
       <section className="py-16 md:py-20">
@@ -14,13 +26,20 @@ const Chooseme = () => {
               </h2>
 
               <div className="flex justify-center md:justify-end">
-                <button className="group text-base font-semibold relative rounded-full min-h-[50px] w-40 overflow-hidden border-2 border-primary bg-white text-gray-700 shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-0 before:w-1/4 before:bg-primary before:duration-500 after:absolute after:bottom-0 after:right-0 after:h-0 after:w-1/4 after:bg-primary after:duration-500 hover:text-primary hover:before:h-full hover:after:h-full cursor-pointer">
+                <button
+                  onClick={handleQutationOpen}
+                  className="group text-base font-semibold relative rounded-full min-h-[50px] w-40 overflow-hidden border-2 border-primary bg-white text-gray-700 shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-0 before:w-1/4 before:bg-primary before:duration-500 after:absolute after:bottom-0 after:right-0 after:h-0 after:w-1/4 after:bg-primary after:duration-500 hover:text-primary hover:before:h-full hover:after:h-full cursor-pointer"
+                >
                   <span className="top-0 flex h-full w-full items-center justify-center before:absolute before:bottom-0 before:left-1/4 before:z-0 before:h-0 before:w-1/4 before:bg-primary before:duration-500 after:absolute after:right-1/4 after:top-0 after:z-0 after:h-0 after:w-1/4 after:bg-primary after:duration-500 hover:text-gray-700 group-hover:before:h-full group-hover:after:h-full"></span>
                   <span className="absolute text-base bottom-0 left-0 right-0 top-0 z-10 flex h-full  w-full items-center justify-center group-hover:text-white gap-2">
                     Get Quotation
                     <FaArrowRightLong />
                   </span>
                 </button>
+                <Qutation_form
+                  isOpen={getQuotation}
+                  onClose={handleQutationClose}
+                />
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-6 lg:gap-8">
