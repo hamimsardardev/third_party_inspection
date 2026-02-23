@@ -9,7 +9,7 @@ import Link from "next/link";
 const Service_part = () => {
   return (
     <div>
-      <section className="bg-[url('/servicebanner.jpg')] bg-cover bg-center">
+      <section className="bg-[url('/servicebanner.png')] bg-cover bg-center">
         <Container>
           <div className="py-32 md:py-56">
             <h2 className="text-3xl md:text-4xl text-primary font-semibold leading-tight">
@@ -31,15 +31,14 @@ const Service_part = () => {
             <div className="">
               <ul className="flex flex-col sm:flex-row flex-wrap sm:justify-between items-start sm:items-center text-[16px] md:text-[18px] font-semibold text-primary">
                 <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
-                  <a href="#">Quality Inspection & Supplier Services</a>
+                  <a href="#">Product Quality Inspection</a>
                 </li>
                 <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
-                  <a href="#">Supplier management&development</a>
+                  <a href="#">Audit & Survey</a>
                 </li>
                 <li className="w-full sm:w-auto px-4 sm:px-6 lg:px-8 py-3 sm:py-4 hover:text-white hover:bg-primary transition-all duration-300">
-                  <a href="#">Acceptance of government procurement</a>
+                  <a href="#">Supplier Management & Development</a>
                 </li>
-               
               </ul>
             </div>
           </div>
@@ -60,43 +59,31 @@ const Service_part = () => {
               <div className="space-y-6">
                 <div>
                   <h2 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[48px] font-semibold text-white leading-[24px] md:leading-[36px] lg:leading-[48px]">
-                    <Link href="/service/productinspection">
-                      Product Quality Control Inspection
+                    <Link className="hover:underline" href="/service/productinspection">
+                      Product Quality Inspection
                     </Link>
                   </h2>
                 </div>
                 <ul className="space-y-1 text-primary text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed">
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
-                    Product Inspection
+                    Pre-production Inspection
                   </li>
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
-                    Industrial Product Inspection
+                    During Production Inspection
                   </li>
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
-                    Full Inspection
+                    Pre-Shipment Inspection
                   </li>
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
-                    Loading Supervision
+                    Sample pick inspection
                   </li>
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
-                    Damage Investigation
-                  </li>
-                  <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
-                    <GoDotFill />
-                    Design, Making And Verification
-                  </li>
-                  <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
-                    <GoDotFill />
-                    Process Audit
-                  </li>
-                  <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
-                    <GoDotFill />
-                    Product Audit
+                    Packaging Inspection
                   </li>
                 </ul>
               </div>
@@ -115,9 +102,7 @@ const Service_part = () => {
 
               <div className="space-y-6 order-2 md:order-1">
                 <h2 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[48px] font-semibold text-white leading-[24px] md:leading-[36px] lg:leading-[48px]">
-                  <Link href="/service/supliermanagement">
-                    Supplier Management & Development
-                  </Link>
+                  <Link className="hover:underline" href="/service/auditservey">Audit & Survey</Link>
                 </h2>
                 <ul className="space-y-1 text-primary text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed">
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
@@ -132,21 +117,14 @@ const Service_part = () => {
                     <GoDotFill />
                     Optimization For Management System
                   </li>
+
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
-                    Management Consulting
+                    Loading Supervision
                   </li>
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
-                    Project Engineering Management
-                  </li>
-                  <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
-                    <GoDotFill />
-                    Quality Engineering Consulting
-                  </li>
-                  <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
-                    <GoDotFill />
-                    Social Responsibility Consulting
+                    Survey & Verification
                   </li>
                 </ul>
               </div>
@@ -165,28 +143,18 @@ const Service_part = () => {
 
               <div className="space-y-6">
                 <h2 className="text-[24px] sm:text-[30px] md:text-[36px] lg:text-[48px] font-semibold text-white leading-[24px] md:leading-[36px] lg:leading-[48px]">
-                  <Link href="/service/goverment">
-                    Acceptance of Government Procurement
+                  <Link className="hover:underline" href="/service/supliermanagement">
+                    Supplier Management & Development
                   </Link>
                 </h2>
                 <ul className="space-y-1 text-primary text-[14px] md:text-[16px] lg:text-[18px] leading-relaxed">
                   <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
                     <GoDotFill />
-                    Material
-                  </li>
-                  <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
-                    <GoDotFill />
-                    Services
-                  </li>
-                  <li className="flex gap-2 items-center text-center cursor-pointer hover:text-white hover:underline">
-                    <GoDotFill />
-                    Engineering
+                    Management Consulting
                   </li>
                 </ul>
               </div>
             </section>
-
-            
           </div>
           <Sample_part />
         </Container>

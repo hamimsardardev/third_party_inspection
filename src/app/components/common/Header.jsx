@@ -86,7 +86,7 @@ const Header = () => {
                       <li className="px-4 hover:text-white">
                         <Link
                           className="hover:underline"
-                          href="/service/goverment"
+                          href="/service/supliermanagement"
                         >
                           Supplier Management & Development
                         </Link>

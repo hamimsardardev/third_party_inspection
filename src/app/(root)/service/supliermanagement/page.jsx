@@ -12,7 +12,7 @@ const Goverment_part = () => {
         <Container>
           <div className="py-32 md:py-56">
             <h2 className="text-3xl md:text-4xl text-primary font-semibold leading-tight">
-              Acceptance of government procurement
+              Supplier Management & Development
             </h2>
 
             <div className="mt-12">
@@ -29,18 +29,15 @@ const Goverment_part = () => {
         <Container>
           <div className="flex flex-col lg:flex-row gap-10 mb-16">
             <div className="lg:w-4/5">
-              <h3 className="text-primary text-3xl md:text-5xl font-medium mb-6">
-                Acceptance of government procurement
+              <h3 className="text-primary text-3xl md:text-5xl font-medium mb-2">
+                Supplier Management & Development
               </h3>
 
               <p className="text-white text-base leading-relaxed max-w-[720px]">
-                PGI Inspection is a leading third-party quality assurance agency
-                based in China, with nearly 20 years of experience in the
-                quality control industry. Over the past two decades, we have
-                built a strong reputation for delivering reliable, efficient,
-                and tailored quality solutions to clients worldwide. At GIS, our
-                Supplier Management & Development Service is designed to help
-                businesses build a robust and dependable supply chain.
+                Building Stronger, Smarter, and More Reliable Supply Chains
+                <span className="block text-white text-base leading-relaxed mt-3">
+                  We help businesses evaluate, develop, and monitor suppliers to ensure consistent quality, operational efficiency, and long-term partnership success.
+                </span>
               </p>
             </div>
             <div className="lg:w-1/5">
@@ -82,14 +79,14 @@ const Goverment_part = () => {
                 <div className="absolute inset-0 bg-black/50" />
                 <div className="absolute bottom-4 left-4 text-primary font-semibold text-lg">
                   <a className="hover:text-white hover:underline" href="#">
-                    Material
+                    Management Consulting
                   </a>
                 </div>
               </div>
             </div>
 
             {/* Card 2 */}
-            <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
+            {/* <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
                   src="/productinspectionbanner.png"
@@ -104,10 +101,10 @@ const Goverment_part = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Card 3 */}
-            <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
+            {/* <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
                 <Image
                   src="/productinspectionbanner.png"
@@ -122,7 +119,7 @@ const Goverment_part = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <Sample_part />
         </Container>
