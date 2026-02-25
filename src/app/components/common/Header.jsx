@@ -191,6 +191,14 @@ const Header = () => {
                       <li className="px-4 hover:text-white">
                         <Link
                           className="hover:underline"
+                          href="/resourses/factoryaudit"
+                        >
+                          Factory Audit
+                        </Link>
+                      </li>
+                      <li className="px-4 hover:text-white">
+                        <Link
+                          className="hover:underline"
                           href="/resourses/faqs"
                         >
                           FAQs
@@ -416,6 +424,14 @@ const Header = () => {
                               href="/resourses/samplereport"
                             >
                               Sample Feports
+                            </Link>
+                          </li>
+                          <li className="px-4 hover:text-white">
+                            <Link
+                              className="hover:underline"
+                              href="/resourses/factoruaudit"
+                            >
+                              Factory Audit
                             </Link>
                           </li>
                           <li className="px-4 hover:text-white">

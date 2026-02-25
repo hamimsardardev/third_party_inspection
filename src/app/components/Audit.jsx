@@ -19,7 +19,7 @@ const Audit = () => {
               <div className="order-2 lg:order-1">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10">
                   <Image
-                    src="/auditimageo.jpg"
+                    src="/auditimage1.jpg"
                     alt="Factory audit inspection - 360 degree panoramic view"
                     width={600}
                     height={500}
@@ -30,12 +30,12 @@ const Audit = () => {
               </div>
 
               {/* Right - Text + Button */}
-              <div className="order-1 lg:order-2 text-third space-y-6 md:space-y-8">
+              <div className="order-1 lg:order-2 text-third space-y-4 md:space-y-3">
                 <h2 className="text-[24px] md:text-[30px] lg:text-[38px] text-primary font-semibold tracking-tight">
                   FACTORY AUDIT
                 </h2>
 
-                <p className="w-auto lg:w-[560px] text-[16px] lg:text-[24px] font-medium text-white md:text-[18px] leading-[24px] ">
+                <p className="w-auto lg:w-[560px] text-[14px] lg:text-[18px] font-medium text-white md:text-[16px] leading-[24px] ">
                   Our Factory Assessment Service supervises suppliers with a
                   true 360-degree approach using advanced VR panoramic camera
                   technology. From your office, gain a complete immersive view
