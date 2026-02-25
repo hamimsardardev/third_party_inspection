@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { useEffect, useRef } from "react";
 
 const ButtonWrapper = () => {
@@ -48,7 +49,7 @@ const SpotlightButton = () => {
       ref={btnRef}
       className="relative cursor-pointer overflow-hidden rounded-lg bg-primary px-8 py-3 text-lg font-semibold text-gray-800 shadow-md"
     >
-      <span className="relative z-10">Contact Us</span>
+      <Link href="/contact" className="relative z-10">Contact Us</Link>
 
       <span
         ref={spanRef}

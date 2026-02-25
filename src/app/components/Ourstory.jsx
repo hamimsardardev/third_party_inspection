@@ -1,8 +1,11 @@
-import React from "react";
+"use client"
+
+import React, { useState } from "react";
 import Container from "./common/Container";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Ourstory = () => {
+  const [showMore, setShowMore] = useState(false);
   return (
     <div>
       <section className="py-16 md:py-20 lg:py-24">
@@ -20,17 +23,26 @@ const Ourstory = () => {
                   solutions. Our diverse portfolio of solutions protects
                   companies' interests and improves quality performance.
                 </p>
-
+                {showMore && (
+                  <p className="text-lg sm:text-xl text-white leading-relaxed mt-4">
+                    With years of industry experience, we have built a strong
+                    reputation for transparency, integrity, and technical
+                    excellence. Our team works closely with clients worldwide to
+                    ensure every product meets international standards and
+                    compliance requirements.
+                  </p>
+                )}
                 <div className="pt-4">
-                  <a
-                    href="#"
+                  <button
+                    onClick={() => setShowMore(!showMore)}
                     className="inline-flex items-center justify-center gap-2 text-primary font-semibold text-lg hover:text-secondery transition-colors group"
                   >
-                    Know More
+                    {showMore ? "Show Less" : "Know More"}
+
                     <span className="flex items-center transition-transform group-hover:translate-x-1">
                       <FaArrowRightLong className="text-current" />
                     </span>
-                  </a>
+                  </button>
                 </div>
               </div>
 

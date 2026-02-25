@@ -1,5 +1,7 @@
+"use client"
+
 import Container from "@/app/components/common/Container";
-import Sample_part from "@/app/components/Sample_part";
+import Contact_Part from "@/app/components/Contact_Part";
 import React from "react";
 import { ImFilePdf } from "react-icons/im";
 
@@ -123,7 +125,7 @@ const Samplereport_part = () => {
           </div>
         </Container>
       </section>
-      <Sample_part />
+      <Contact_Part />
     </>
   );
 };

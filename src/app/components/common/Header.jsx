@@ -90,7 +90,7 @@ const Header = () => {
                         >
                           Supplier Management & Development
                         </Link>
-                      </li>                     
+                      </li>
                     </ul>
                   </div>
                 </li>
@@ -114,22 +114,34 @@ const Header = () => {
                         </a>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <a className="hover:underline" href="/product/softgoods">
+                        <a
+                          className="hover:underline"
+                          href="/product/softgoods"
+                        >
                           Soft Goods/Textile
                         </a>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <a className="hover:underline" href="/product/hardgoods">
+                        <a
+                          className="hover:underline"
+                          href="/product/hardgoods"
+                        >
                           Hard Goods
                         </a>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <a className="hover:underline" href="/product/mechanicalproduct">
+                        <a
+                          className="hover:underline"
+                          href="/product/mechanicalproduct"
+                        >
                           Mechanical Products
                         </a>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <a className="hover:underline" href="/product/craftpaper">
+                        <a
+                          className="hover:underline"
+                          href="/product/craftpaper"
+                        >
                           Craft & Paper Goods
                         </a>
                       </li>
@@ -139,7 +151,10 @@ const Header = () => {
                         </a>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <a className="hover:underline" href="/product/foodfruits">
+                        <a
+                          className="hover:underline"
+                          href="/product/foodfruits"
+                        >
                           Food & Fruits
                         </a>
                       </li>
@@ -157,18 +172,27 @@ const Header = () => {
                   </Link>
                   <div className="absolute left-0 mt-2 hidden text-primary min-w-[220px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
                     <ul className="flex flex-col py-2 gap-2">
-                      <li className= "px-4 hover:text-white">
-                        <Link className="hover:underline" href="/resourses/blog">
+                      <li className="px-4 hover:text-white">
+                        <Link
+                          className="hover:underline"
+                          href="/resourses/blog"
+                        >
                           Blog
                         </Link>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <Link className="hover:underline" href="/resourses/samplereport">
+                        <Link
+                          className="hover:underline"
+                          href="/resourses/samplereport"
+                        >
                           Sample Feports
                         </Link>
                       </li>
                       <li className="px-4 hover:text-white">
-                        <Link className="hover:underline" href="/resourses/faqs">
+                        <Link
+                          className="hover:underline"
+                          href="/resourses/faqs"
+                        >
                           FAQs
                         </Link>
                       </li>
@@ -241,6 +265,9 @@ const Header = () => {
               {navbarshow && (
                 <div className=" absolute top-[35px] right-0 w-full lg:hidden mt-4 flex flex-col items-center gap-2 bg-gray-800 rounded-xl p-4">
                   <ul className="lg:flex items-center gap-8 font-semibold text-primary tracking-wide">
+                    <li className="group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
+                      <Link href="/">HOME</Link>
+                    </li>
                     <li
                       className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300"
                       onClick={handleservicesOpen}
@@ -280,7 +307,6 @@ const Header = () => {
                               Supplier Management & Development
                             </Link>
                           </li>
-                         
                         </ul>
                       </div>
                     </li>
@@ -310,32 +336,50 @@ const Header = () => {
                             </Link>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <Link className="hover:underline" href="/product/softgoods">
+                            <Link
+                              className="hover:underline"
+                              href="/product/softgoods"
+                            >
                               Soft Goods/Textile
                             </Link>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <Link className="hover:underline" href="/product/hardgoods">
+                            <Link
+                              className="hover:underline"
+                              href="/product/hardgoods"
+                            >
                               Hard Goods
                             </Link>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <Link className="hover:underline" href="/product/mechanicalproduct">
+                            <Link
+                              className="hover:underline"
+                              href="/product/mechanicalproduct"
+                            >
                               Mechanical Products
                             </Link>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <Link className="hover:underline" href="/product/craftpaper">
+                            <Link
+                              className="hover:underline"
+                              href="/product/craftpaper"
+                            >
                               Craft & Paper Goods
                             </Link>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <Link className="hover:underline" href="/product/footwear">
+                            <Link
+                              className="hover:underline"
+                              href="/product/footwear"
+                            >
                               Footwear
                             </Link>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <Link className="hover:underline" href="/product/foodfruits">
+                            <Link
+                              className="hover:underline"
+                              href="/product/foodfruits"
+                            >
                               Food & Fruits
                             </Link>
                           </li>
@@ -359,20 +403,29 @@ const Header = () => {
                       >
                         <ul className="flex flex-col py-2 gap-2">
                           <li className="px-4 hover:text-white">
-                            <Link className="hover:underline" href="/resourses/blog">
+                            <Link
+                              className="hover:underline"
+                              href="/resourses/blog"
+                            >
                               Blog
                             </Link>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <Link className="hover:underline" href="/resourses/samplereport">
-                             Sample Feports
+                            <Link
+                              className="hover:underline"
+                              href="/resourses/samplereport"
+                            >
+                              Sample Feports
                             </Link>
                           </li>
                           <li className="px-4 hover:text-white">
-                            <Link className="hover:underline" href="/resourses/faqs">
+                            <Link
+                              className="hover:underline"
+                              href="/resourses/faqs"
+                            >
                               FAQs
                             </Link>
-                          </li>                          
+                          </li>
                         </ul>
                       </div>
                     </li>
