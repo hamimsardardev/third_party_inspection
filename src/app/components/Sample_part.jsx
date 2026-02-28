@@ -13,7 +13,7 @@ const Sample_part = () => {
                 SAMPLE REPORT
               </h1>
               <p className="mt-6 text-lg leading-8 text-white max-w-3xl mx-auto">
-                GIS performs third party inspection, plant evaluation as well as
+                PGI performs third party inspection, plant evaluation as well as
                 project quality management, product testing and inspection and
                 quality engineering consultation. Check out some examples of the
                 reports we provide below.

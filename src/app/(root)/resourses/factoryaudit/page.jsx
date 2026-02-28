@@ -1,126 +1,309 @@
+"use client";
+
+import Container from "@/app/components/common/Container";
+import Qutation_form from "@/app/components/Qutation_form";
+import Sample_part from "@/app/components/Sample_part";
 import Image from "next/image";
-import Link from "next/link";
+import { useState } from "react";
+import { FaArrowRightLong } from "react-icons/fa6";
+import { FaCheck } from "react-icons/fa6";
+import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 const FactoryAudit = () => {
+  const [getQuotation, setgetQuotation] = useState(false);
+
+  function handleQutationOpen() {
+    setgetQuotation(true);
+  }
+
+  function handleQutationClose() {
+    setgetQuotation(false);
+  }
+
   return (
-    <div className="w-full">
-      {/* ================= HERO SECTION ================= */}
-      <section className="bg-gray-50 py-20">
-        <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Image */}
-          <div className="relative w-full h-[350px] rounded-xl overflow-hidden shadow-lg">
-            <Image
-              src="/vr-audit.jpg" // replace with your image
-              alt="VR Factory Audit"
-              fill
-              className="object-cover"
-            />
-          </div>
-
-          {/* Right Content */}
-          <div>
-            <h1 className="text-4xl font-bold text-gray-900 mb-6">
-              VR Factory Audit
-            </h1>
-
-            <p className="text-gray-600 mb-8 leading-relaxed">
-              Visualize the inspection scene and make the entire audit process
-              digitalized, transparent, and immersive.
-            </p>
-
-            <div className="grid md:grid-cols-2 gap-6 text-gray-700 text-sm mb-8">
-              <ul className="space-y-3">
-                <li>✔ 400+ Full-time Inspectors</li>
-                <li>✔ 30+ Countries Coverage</li>
-                <li>✔ Panorama Camera Technology</li>
-                <li>✔ 3D Online Report Processing</li>
-              </ul>
-
-              <ul className="space-y-3">
-                <li>✔ Order Scheduled Within 24h</li>
-                <li>✔ 3D Real Scene Report</li>
-                <li>✔ 99% Procurement Risk Avoidance</li>
-              </ul>
+    <div>
+      <section className="py-20 ">
+        <Container>
+          <div className=" px-6 grid lg:grid-cols-2 gap-12 items-center">
+            <div className="relative w-full h-[350px] rounded-xl overflow-hidden shadow-lg">
+              <Image
+                src="/vr-audit.jpg"
+                alt="VR Factory Audit"
+                fill
+                className="object-cover"
+              />
             </div>
 
-            <Link
-              href="/contact"
-              className="inline-block bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full transition"
-            >
-              Get Quotation →
-            </Link>
+            <div>
+              <h1 className="text-[36px] font-bold text-primary mb-4">
+                Factory Audit
+              </h1>
+
+              <p className="text-primary text-[14px] md:text-[16px] lg:text-[18px] mb-4 leading-relaxed">
+                Visualize the inspection scene and make the entire audit process
+                digitalized, transparent, and immersive.
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-6 text-primary text-sm mb-8">
+                <ul className="space-y-3">
+                  <h3 className="text-[14px] md:text-[16px] lg:text-[18px]">
+                    PGI
+                  </h3>
+                  <li className="flex items-center gap-1">
+                    <FaCheck /> 400+ Full-time Inspectors
+                  </li>
+                  <li className="flex items-center gap-1">
+                    <FaCheck /> 30+ Countries Coverage
+                  </li>
+                  <li className="flex items-center gap-1">
+                    <FaCheck /> Panorama Camera Technology
+                  </li>
+                  <li className="flex items-center gap-1">
+                    <FaCheck /> 3D Online Report Processing
+                  </li>
+                </ul>
+
+                <ul className="space-y-3">
+                  <h3 className="text-[14px] md:text-[16px] lg:text-[18px]">
+                    Client
+                  </h3>
+                  <li className="flex items-center gap-1">
+                    <FaCheck /> Order Scheduled Within 24h
+                  </li>
+                  <li className="flex items-center gap-1">
+                    <FaCheck /> 3D Real Scene Report
+                  </li>
+                  <li className="flex items-center gap-1">
+                    <FaCheck /> 99% Procurement Risk Avoidance
+                  </li>
+                </ul>
+              </div>
+
+              <div className="flex justify-center md:justify-end">
+                <button
+                  onClick={handleQutationOpen}
+                  className="group text-base font-semibold relative rounded-full min-h-[50px] w-40 overflow-hidden border-2 border-primary bg-white text-gray-700 shadow-2xl transition-all before:absolute before:left-0 before:top-0 before:h-0 before:w-1/4 before:bg-primary before:duration-500 after:absolute after:bottom-0 after:right-0 after:h-0 after:w-1/4 after:bg-primary after:duration-500 hover:text-primary hover:before:h-full hover:after:h-full cursor-pointer"
+                >
+                  <span className="top-0 flex h-full w-full items-center justify-center before:absolute before:bottom-0 before:left-1/4 before:z-0 before:h-0 before:w-1/4 before:bg-primary before:duration-500 after:absolute after:right-1/4 after:top-0 after:z-0 after:h-0 after:w-1/4 after:bg-primary after:duration-500 hover:text-gray-700 group-hover:before:h-full group-hover:after:h-full"></span>
+                  <span className="absolute text-base bottom-0 left-0 right-0 top-0 z-10 flex h-full  w-full items-center justify-center group-hover:text-white gap-2">
+                    Get Quotation
+                    <FaArrowRightLong />
+                  </span>
+                </button>
+                <Qutation_form
+                  isOpen={getQuotation}
+                  onClose={handleQutationClose}
+                />
+              </div>
+            </div>
           </div>
-        </div>
+        </Container>
       </section>
 
       {/* ================= WHY VR AUDIT ================= */}
-      <section className="bg-gray-900 text-white py-20">
-        <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
-          {/* Left Content */}
-          <div>
-            <h2 className="text-3xl font-bold mb-8">
-              Why VR <span className="text-orange-500">Audit?</span>
-            </h2>
+      <section className="py-20">
+        <Container>
+          <div className=" px-6 grid lg:grid-cols-2 gap-12 items-center">
+            {/* Left Content */}
+            <div>
+              <h2 className="text-3xl text-white font-bold mb-8">
+                Why Need <span className="text-primary">Audit?</span>
+              </h2>
 
-            <ul className="space-y-6 text-gray-300">
-              <li>
-                <strong>Visualized Experience:</strong> Real-time immersive
-                factory environment.
-              </li>
-              <li>
-                <strong>Risk Mitigation:</strong> Reduce supply chain and
-                procurement risks efficiently.
-              </li>
-              <li>
-                <strong>Cost Saving:</strong> No travel required, saving time
-                and operational costs.
-              </li>
-              <li>
-                <strong>Anti-Bribery:</strong> Transparent online reporting and
-                supervision.
-              </li>
-              <li>
-                <strong>Professional Team:</strong> Experienced technical audit
-                specialists.
-              </li>
-              <li>
-                <strong>Fast Delivery:</strong> Reports generated within 48h.
-              </li>
-            </ul>
-          </div>
+              <ul className="space-y-6 text-white">
+                <li className="flex items-center gap-2">
+                  <VscDebugBreakpointLog />
+                  <p className="font-normal text-[16px]">
+                    <span className="text-primary font-bold text-[18px]">
+                      Visualized Experience:
+                    </span>{" "}
+                    Real-time immersive factory environment.
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <VscDebugBreakpointLog />
+                  <p className="font-normal text-[16px]">
+                    <span className="text-primary font-bold text-[18px]">
+                      Risk Mitigation:
+                    </span>{" "}
+                    Reduce supply chain and procurement risks efficiently.
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <VscDebugBreakpointLog />
+                  <p className="font-normal text-[16px]">
+                    <span className="text-primary font-bold text-[18px]">
+                      Cost Saving:
+                    </span>{" "}
+                    No travel required, saving time and operational costs.
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <VscDebugBreakpointLog />
+                  <p className="font-normal text-[16px]">
+                    <span className="text-primary font-bold text-[18px]">
+                      Anti-Bribery:
+                    </span>{" "}
+                    Transparent online reporting and supervision.
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <VscDebugBreakpointLog />
+                  <p className="font-normal text-[16px]">
+                    <span className="text-primary font-bold text-[18px]">
+                      Professional Team:
+                    </span>{" "}
+                    Experienced technical audit specialists.
+                  </p>
+                </li>
+                <li className="flex items-center gap-2">
+                  <VscDebugBreakpointLog />
+                  <p className="font-normal text-[16px]">
+                    <span className="text-primary font-bold text-[18px]">
+                      Fast Delivery:
+                    </span>{" "}
+                    Reports generated within 48h.
+                  </p>
+                </li>
+              </ul>
+            </div>
 
-          {/* Right Image */}
-          <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-xl">
-            <Image
-              src="/factory-interior.jpg" // replace image
-              alt="Factory Interior"
-              fill
-              className="object-cover"
-            />
+            {/* Right Image */}
+            <div className="relative w-full h-[400px] rounded-xl overflow-hidden shadow-xl">
+              <Image
+                src="/factory-interior.jpg" // replace image
+                alt="Factory Interior"
+                fill
+                className="object-cover"
+              />
+            </div>
           </div>
-        </div>
+        </Container>
       </section>
 
       {/* ================= SERVICE COVERAGE ================= */}
-      <section className="bg-white py-20">
-        <div className="max-w-7xl mx-auto px-6">
-          <h2 className="text-3xl font-bold mb-4">
-            Our Service <span className="text-orange-500">Coverage</span>
-          </h2>
+      <section className="py-20">
+        <Container>
+          <div>
+            <h2 className="text-[30px] text-white font-bold mb-4">
+              Our Service <span className="ml-2 text-primary">Coverage</span>
+            </h2>
 
-          <p className="text-gray-600 mb-12">
-            Our inspectors and auditors cover more than 30 countries worldwide.
-          </p>
+            <p className="text-primary mb-12">
+              Our inspectors and auditors cover more than 30 countries
+              worldwide.
+            </p>
+            <div className="flex">
+              <div className="w-[25%}">
+                <div className="grid md:grid-cols-2 gap-2 text-primary text-sm mb-8">
+                  <ul className="space-y-2">
+                    <h3 className="text-[14px] md:text-[16px] lg:text-[18px]">
+                      Asia
+                    </h3>
+                    <li className="flex items-center gap-1">
+                      <FaCheck />
+                      Bangladesh
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck />
+                      China
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck />
+                      Myanmar
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Cambodia India
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Indonesia
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Japan
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Malaysia
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Pakistan
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Philippines
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> South Korea
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Thailand
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Turkey
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Vietnam
+                    </li>
+                  </ul>
 
-          <div className="relative w-full h-[450px] rounded-xl overflow-hidden shadow-md">
-            <Image
-              src="/world-map.png" // replace with world map image
-              alt="Service Coverage Map"
-              fill
-              className="object-contain"
-            />
+                  <ul className="space-y-2">
+                    <h3 className="text-[14px] md:text-[16px] lg:text-[18px]">
+                      Europe
+                    </h3>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Poland
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Czechoslovak
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Hungary
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> United
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Kingdom
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Germany
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Spain
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Ireland
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Belgium
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Sweden
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> France
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Ukraine
+                    </li>
+                    <li className="flex items-center gap-1">
+                      <FaCheck /> Russia
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="w-[75%]">
+                <div className="relative w-full h-[550px] rounded-xl overflow-hidden shadow-md">
+                  <Image
+                    src="/worldmap.png"
+                    alt="Service Coverage Map"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
+        </Container>
+        <Sample_part/>
       </section>
     </div>
   );

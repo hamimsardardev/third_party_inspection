@@ -67,7 +67,7 @@ const Chooseme = () => {
                     MD
                   </span>
                   <p className="text-white text-base leading-relaxed">
-                    $219/MD for Inspection everywhere
+                    $219/MD for Inspection in Bangladesh & South Asia
                   </p>
                 </div>
               </div>

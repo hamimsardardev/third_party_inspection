@@ -70,7 +70,7 @@ const Contact_Part = () => {
                           Address:
                         </p>
                         <h5 className="font-roboto text-[16px] font-medium leading-[24px] text-white">
-                          New Mexico 31134
+                          Dhaka, Bangladesh
                         </h5>
                       </div>
                     </div>
@@ -92,7 +92,7 @@ const Contact_Part = () => {
                           Email:
                         </p>
                         <h5 className="break-all sm:break-normal font-roboto text-[16px] font-medium leading-[24px] text-white">
-                          hamimsardar118677@gmail.com
+                          hossain@pgi-intl.com | service@pgi-intl.com
                         </h5>
                       </div>
                     </div>
@@ -114,7 +114,7 @@ const Contact_Part = () => {
                           Contact:
                         </p>
                         <h5 className="font-roboto text-[16px] font-medium leading-[24px] text-white">
-                          +8801703-949775
+                          +8801642-401262
                         </h5>
                       </div>
                     </div>
