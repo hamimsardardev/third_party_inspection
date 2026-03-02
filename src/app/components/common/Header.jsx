@@ -310,7 +310,7 @@ const Header = () => {
                           <li className="px-4 transition ">
                             <Link
                               className="block hover:underline hover:text-white"
-                              href="/service/goverment"
+                              href="/service/supliermanagement"
                             >
                               Supplier Management & Development
                             </Link>

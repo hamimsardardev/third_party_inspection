@@ -97,8 +97,7 @@ const Qutation_form = ({ isOpen, onClose }) => {
                 <option value="CN">China</option>
                 <option value="IN">India</option>
                 <option value="PK">Pakistan</option>
-                <option value="VN">Vietnam</option>
-                {/* আরও দেশ যোগ করতে পারো */}
+                <option value="VN">Vietnam</option>                
               </select>
             </div>
 
@@ -170,7 +169,7 @@ const Qutation_form = ({ isOpen, onClose }) => {
 
             <button
               type="submit"
-              className="w-full border-2 border-third text-white py-4 bg-third hover:bg-gray-600 font-semibold rounded-full transition duration-300 shadow-md flex items-center justify-center gap-2 text-lg cursor-pointer"
+              className="px-4 py-2 border-2 border-third text-white py-4 bg-third hover:bg-gray-600 font-semibold rounded-full transition duration-300 shadow-md flex items-center justify-center gap-2 text-lg cursor-pointer"
             >
               Submit Quotation Request →
             </button>

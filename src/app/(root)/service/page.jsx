@@ -1,12 +1,22 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Sample_part from "@/app/components/Sample_part";
 import Container from "@/app/components/common/Container";
 import { GoDotFill } from "react-icons/go";
 import Link from "next/link";
+import Qutation_form from "@/app/components/Qutation_form";
 
 const Service_part = () => {
+  const [getQuotation, setgetQuotation] = useState(false);
+  
+    function handleQutationOpen() {
+      setgetQuotation(true);
+    }
+  
+    function handleQutationClose() {
+      setgetQuotation(false);
+    }
   return (
     <div>
       <section className="bg-[url('/servicebanner.png')] bg-cover bg-center">
@@ -19,9 +29,15 @@ const Service_part = () => {
             </h2>
 
             <div className="mt-12">
-              <button className="relative h-[50px] w-44 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56">
-                <span className="relative z-10">Get a Sample Report</span>
+              <button 
+              onClick={handleQutationOpen}
+              className="relative h-[50px] w-44 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56 cursor-pointer">
+                <span className="relative z-10">Get Quotation</span>
               </button>
+                <Qutation_form
+                  isOpen={getQuotation}
+                  onClose={handleQutationClose}
+                />
             </div>
           </div>
         </Container>
@@ -51,10 +67,10 @@ const Service_part = () => {
             <section className="grid md:grid-cols-2 gap-8 items-center">
               <div className="relative h-64 md:h-80 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/servicebanner.jpg"
+                  src="/serviceproductimage.png"
                   alt="Engineer inspecting product in factory"
                   fill
-                  className="object-cover"
+                  className="w-full h-auto"
                   priority
                 />
               </div>
@@ -92,11 +108,11 @@ const Service_part = () => {
               </div>
             </section>
 
-            {/* Section 2 - Supplier management & development */}
+            {/* Section 2 - Audit and servey */}
             <section className="grid md:grid-cols-2 gap-8 items-center md:flex-row-reverse">
               <div className="relative h-64 md:h-80 rounded-xl overflow-hidden shadow-lg order-1 md:order-2">
                 <Image
-                  src="/servicebanner.jpg"
+                  src="/auditsurvey.jpg"
                   alt="Factory evaluation team"
                   fill
                   className="object-cover"
@@ -133,14 +149,14 @@ const Service_part = () => {
               </div>
             </section>
 
-            {/* Section 3 - Acceptance of government procurement */}
+            {/* Section 3 - Supplier Management & Development */}
             <section className="grid md:grid-cols-2 gap-8 items-center">
               <div className="relative h-64 md:h-80 rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/servicebanner.jpg"
-                  alt="Government acceptance testing team with equipment"
+                  src="/suppliermanagement2.jpg"
+                  alt="Supplier Management & Development"
                   fill
-                  className="object-cover"
+                  className="w-full h-auto"
                 />
               </div>
 
@@ -159,8 +175,8 @@ const Service_part = () => {
               </div>
             </section>
           </div>
-          <Sample_part />
         </Container>
+          <Sample_part />
       </section>
     </div>
   );

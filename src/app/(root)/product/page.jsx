@@ -1,10 +1,20 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Container from "@/app/components/common/Container";
 import Sample_part from "@/app/components/Sample_part";
+import Qutation_form from "@/app/components/Qutation_form";
 
 const Product_part = () => {
+   const [getQuotation, setgetQuotation] = useState(false);
+  
+    function handleQutationOpen() {
+      setgetQuotation(true);
+    }
+  
+    function handleQutationClose() {
+      setgetQuotation(false);
+    }
   return (
     <div>
       {/* ================= Banner Section ================= */}
@@ -16,8 +26,14 @@ const Product_part = () => {
             </h2>
 
             <div className="mt-12">
-              <button className="relative h-[50px] w-44 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56">
-                <span className="relative z-10">Get a Sample Report</span>
+              <button 
+              onClick={handleQutationOpen}
+              className="relative h-[50px] w-44 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56">
+                <span className="relative z-10">Get Quotation</span>
+                <Qutation_form
+                  isOpen={getQuotation}
+                  onClose={handleQutationClose}
+                />
               </button>
             </div>
           </div>
@@ -67,7 +83,7 @@ const Product_part = () => {
           </div>
 
           {/* ================= Cards ================= */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 pb-12">
             {/* Card 1 */}
             <div className="group rounded-xl overflow-hidden shadow hover:shadow-xl transition">
               <div className="relative h-64">
