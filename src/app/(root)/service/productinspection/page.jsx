@@ -4,17 +4,29 @@ import Image from "next/image";
 import Container from "@/app/components/common/Container";
 import Sample_part from "@/app/components/Sample_part";
 import BookNow_form from "@/app/components/BookNow_form";
+import Qutation_form from "@/app/components/Qutation_form";
 
 const Productinspection_part = () => {
   const [getQuotation, setgetQuotation] = useState(false);
-    
-      function handleQutationOpen() {
-        setgetQuotation(true);
-      }
-    
-      function handleQutationClose() {
-        setgetQuotation(false);
-      }
+
+  function handleQutationOpen() {
+    setgetQuotation(true);
+  }
+
+  function handleQutationClose() {
+    setgetQuotation(false);
+  }
+  // Book Now//
+  
+  const [getBooknow, setgetBooknow] = useState(false);
+
+  function handleBookOpen() {
+    setgetBooknow(true);
+  }
+
+  function handleBookClose() {
+    setgetBooknow (false);
+  }
   return (
     <div>
       {/* ================= Banner Section ================= */}
@@ -25,25 +37,23 @@ const Productinspection_part = () => {
               Product Quality Control Inspection
             </h2>
             <p className="text-white text-[18px] leading-relaxed max-w-[720px]">
-              A Product Quality Control Inspection is the assessment for production capability and
-              performance of a factory against proven quality principles. Every
-              production site needs reliable manufacturing and quality control
-              systems to ensure customers are satisfied with their products. As
-              such, the key criteria assessed are policies, procedures and
-              records that would indicate the factory’s ability to deliver
-              consistent quality management over time, rather than at one given
-              time or only for certain products.
+              A Product Quality Control Inspection is the assessment for
+              production capability and performance of a factory against proven
+              quality principles. Every production site needs reliable
+              manufacturing and quality control systems to ensure customers are
+              satisfied with their products. As such, the key criteria assessed
+              are policies, procedures and records that would indicate the
+              factory’s ability to deliver consistent quality management over
+              time, rather than at one given time or only for certain products.
             </p>
             <div>
-              <button 
-              onClick={handleQutationOpen}
-              className="relative h-[50px] w-44 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56 cursor-pointer">
+              <button
+                onClick={handleBookOpen}
+                className="relative h-[50px] w-44 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56 cursor-pointer"
+              >
                 <span className="relative z-10">Book Now</span>
               </button>
-                <BookNow_form
-                  isOpen={getQuotation}
-                  onClose={handleQutationClose}
-                />
+              <BookNow_form isOpen={getBooknow} onClose={handleBookClose} />
             </div>
           </div>
         </Container>
@@ -83,18 +93,19 @@ const Productinspection_part = () => {
                   </div>
 
                   {/* Button 1 */}
-                  <button className="w-48 py-3 rounded-full bg-primary border border-primary text-black font-medium hover:bg-transparent hover:text-primary transition">
+                  <button
+                    onClick={handleQutationOpen}
+                    className="w-48 py-3 rounded-full bg-primary border border-primary text-black font-medium hover:bg-transparent hover:text-primary transition"
+                  >
                     GET A QUOTE
                   </button>
-
-                  {/* Button 2 */}
-                  <button className="w-48 py-3 rounded-full bg-transparent border border-primary text-primary font-medium hover:bg-primary hover:text-white transition">
-                    SAMPLE REPORT
-                  </button>
+                  <Qutation_form
+                    isOpen={getQuotation}
+                    onClose={handleQutationClose}
+                  />
                 </div>
               </div>
             </div>
-            
           </div>
 
           {/* ================= Cards ================= */}
