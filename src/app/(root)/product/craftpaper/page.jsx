@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import Image from "next/image";
 import Container from "@/app/components/common/Container";
@@ -8,14 +9,14 @@ import Link from "next/link";
 
 const Craftpaper_part = () => {
   const [getQuotation, setgetQuotation] = useState(false);
-  
-    function handleQutationOpen() {
-      setgetQuotation(true);
-    }
-  
-    function handleQutationClose() {
-      setgetQuotation(false);
-    }
+
+  function handleQutationOpen() {
+    setgetQuotation(true);
+  }
+
+  function handleQutationClose() {
+    setgetQuotation(false);
+  }
   return (
     <div>
       {/* ================= Banner Section ================= */}
@@ -33,11 +34,13 @@ const Craftpaper_part = () => {
 
               <div>
                 <Link
-                href="/resourses/samplereport"
-                className="relative h-[50px] w-57 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-56 hover:before:w-57"
-              >
-                <span className="relative z-10">Download a Sample Report</span>
-              </Link>
+                  href="/resourses/samplereport"
+                  className="relative h-[50px] w-56 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-58 hover:before:w-58"
+                >
+                  <span className="relative z-10">
+                    Download a Sample Report
+                  </span>
+                </Link>
               </div>
             </div>
           </Container>
@@ -47,11 +50,20 @@ const Craftpaper_part = () => {
       {/* ================= Content Section ================= */}
       <section className="pt-12 md:pt-20">
         <Container>
-          <div className="flex flex-col lg:flex-row gap-10 mb-16 justify-center items-center">
+          <div className="flex flex-col lg:flex-row gap-10 mb-16">
             <div className="lg:w-4/5">
               <h3 className="text-primary text-3xl md:text-5xl font-medium mb-6">
                 Craft & Paper Goods we Serve
               </h3>
+
+              <p className="text-white text-base leading-relaxed max-w-[820px]">
+                We provide professional inspection services for a wide range of
+                craft and paper products, ensuring quality, safety, and
+                compliance with buyer specifications. From handmade crafts to
+                printed materials and packaging items, we help protect your
+                brand by verifying workmanship, materials, finishing, and
+                overall product consistency before shipment.
+              </p>
             </div>
             <div className="lg:w-1/5">
               <div className="flex justify-center items-center">
@@ -65,14 +77,16 @@ const Craftpaper_part = () => {
                   </div>
 
                   {/* Button 1 */}
-                  <button className="w-48 py-3 rounded-full bg-primary border border-primary text-black font-medium hover:bg-transparent hover:text-primary transition">
+                  <button
+                    onClick={handleQutationOpen}
+                    className="w-48 py-3 rounded-full bg-primary border border-primary text-black font-medium hover:bg-transparent hover:text-primary transition"
+                  >
                     GET A QUOTE
                   </button>
-
-                  {/* Button 2 */}
-                  <button className="w-48 py-3 rounded-full bg-transparent border border-primary text-primary font-medium hover:bg-primary hover:text-white transition">
-                    SAMPLE REPORT
-                  </button>
+                  <Qutation_form
+                    isOpen={getQuotation}
+                    onClose={handleQutationClose}
+                  />
                 </div>
               </div>
             </div>
@@ -189,7 +203,7 @@ const Craftpaper_part = () => {
             </div>
           </div>
         </Container>
-          <Sample_part />
+        <Sample_part />
       </section>
     </div>
   );
