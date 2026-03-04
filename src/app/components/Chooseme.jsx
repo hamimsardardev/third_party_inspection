@@ -62,7 +62,7 @@ const Chooseme = () => {
                   <h2 className="text-5xl md:text-6xl font-extrabold text-primary mb-4">
                     $219
                   </h2>
-                  <span className="absolute text-[16px] md:text-[14px] font-normal text-primary right-[40px] bottom-[43px]">
+                  <span className="absolute text-[16px] md:text-[14px] font-normal text-primary right-[40px] bottom-[69px]">
                     {" "}
                     MD
                   </span>

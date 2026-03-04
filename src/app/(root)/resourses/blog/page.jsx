@@ -1,5 +1,6 @@
 import Container from "@/app/components/common/Container";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Blog_part = () => {
@@ -17,9 +18,14 @@ const Blog_part = () => {
                 control guidelines, and global compliance standards.
               </p>
               <div>
-                <button className="relative h-[50px] w-44 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-56 hover:before:w-56">
-                  <span className="relative z-10">Get a Sample Report</span>
-                </button>
+                <Link
+                  href="/resourses/samplereport"
+                  className="relative h-[50px] w-56 inline-flex items-center justify-center overflow-hidden bg-primary text-white shadow-lg transition-all before:absolute before:h-0 before:w-0 before:rounded-full before:bg-third before:duration-500 before:ease-out hover:before:h-58 hover:before:w-58"
+                >
+                  <span className="relative z-10">
+                    Get a Sample Report
+                  </span>
+                </Link>
               </div>
             </div>
           </Container>

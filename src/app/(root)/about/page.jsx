@@ -1,5 +1,6 @@
 import Container from "@/app/components/common/Container";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const About = () => {
@@ -123,66 +124,66 @@ const About = () => {
                   </p>
                 </div>
               </div>
-            {/* ================= STATS SECTION ================= */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-6 lg:gap-8">
-              <div className="flex flex-col items-center text-center px-4 py-8 rounded-2xl border border-gray-100 hover:border-orange-200 transition-colors duration-300 hover:shadow-md">
-                <div className="relative">
-                  <h2 className="text-5xl md:text-6xl font-extrabold text-primary mb-4">
-                    5
-                  </h2>
-                  <span className="absolute text-[16px] md:text-[14px] font-normal text-primary right-[35px] bottom-[42px]">
-                    {" "}
-                    minutes
-                  </span>
-                  <p className="text-white text-base leading-relaxed">
-                    5 minutes instant online order
-                  </p>
+              {/* ================= STATS SECTION ================= */}
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-6 lg:gap-8">
+                <div className="flex flex-col items-center text-center px-4 py-8 rounded-2xl border border-gray-100 hover:border-orange-200 transition-colors duration-300 hover:shadow-md">
+                  <div className="relative">
+                    <h2 className="text-5xl md:text-6xl font-extrabold text-primary mb-4">
+                      5
+                    </h2>
+                    <span className="absolute text-[16px] md:text-[14px] font-normal text-primary right-[35px] bottom-[42px]">
+                      {" "}
+                      minutes
+                    </span>
+                    <p className="text-white text-base leading-relaxed">
+                      5 minutes instant online order
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center text-center px-4 py-8 rounded-2xl border border-gray-100 hover:border-orange-200 transition-colors duration-300 hover:shadow-md">
+                  <div className="relative">
+                    <h2 className="text-5xl md:text-6xl font-extrabold text-primary mb-4">
+                      $219
+                    </h2>
+                    <span className="absolute text-[16px] md:text-[14px] font-normal text-primary right-[40px] bottom-[69px]">
+                      {" "}
+                      MD
+                    </span>
+                    <p className="text-white text-base leading-relaxed">
+                      $219/MD for Inspection in Bangladesh & South Asia
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center text-center px-4 py-8 rounded-2xl border border-gray-100 hover:border-orange-200 transition-colors duration-300 hover:shadow-md">
+                  <div className="relative">
+                    <h2 className="text-5xl md:text-6xl font-extrabold text-primary mb-4">
+                      24
+                    </h2>
+                    <span className="absolute text-[16px] md:text-[14px] font-normal text-primary right-[60px] bottom-[70px]">
+                      {" "}
+                      hours
+                    </span>
+                    <p className="text-white text-base leading-relaxed">
+                      24 hours to schedule order and get report
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-col items-center text-center px-4 py-8 rounded-2xl border border-gray-100 hover:border-orange-200 transition-colors duration-300 hover:shadow-md">
+                  <div className="relative">
+                    <h2 className="text-5xl md:text-6xl font-extrabold text-primary mb-4">
+                      50+
+                    </h2>
+                    <span className="absolute text-[16px] md:text-[14px] font-normal text-primary right-[60px] bottom-[95px]">
+                      {" "}
+                      QC
+                    </span>
+                    <p className="text-white text-base leading-relaxed">
+                      50+ full-time senior inspectors in Bangladesh and
+                      Southeast Asian countries, as well as Europe countries
+                    </p>
+                  </div>
                 </div>
               </div>
-              <div className="flex flex-col items-center text-center px-4 py-8 rounded-2xl border border-gray-100 hover:border-orange-200 transition-colors duration-300 hover:shadow-md">
-                <div className="relative">
-                  <h2 className="text-5xl md:text-6xl font-extrabold text-primary mb-4">
-                    $219
-                  </h2>
-                  <span className="absolute text-[16px] md:text-[14px] font-normal text-primary right-[40px] bottom-[43px]">
-                    {" "}
-                    MD
-                  </span>
-                  <p className="text-white text-base leading-relaxed">
-                    $219/MD for Inspection everywhere
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col items-center text-center px-4 py-8 rounded-2xl border border-gray-100 hover:border-orange-200 transition-colors duration-300 hover:shadow-md">
-                <div className="relative">
-                  <h2 className="text-5xl md:text-6xl font-extrabold text-primary mb-4">
-                    24
-                  </h2>
-                  <span className="absolute text-[16px] md:text-[14px] font-normal text-primary right-[60px] bottom-[70px]">
-                    {" "}
-                    hours
-                  </span>
-                  <p className="text-white text-base leading-relaxed">
-                    24 hours to schedule order and get report
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col items-center text-center px-4 py-8 rounded-2xl border border-gray-100 hover:border-orange-200 transition-colors duration-300 hover:shadow-md">
-                <div className="relative">
-                  <h2 className="text-5xl md:text-6xl font-extrabold text-primary mb-4">
-                    50+
-                  </h2>
-                  <span className="absolute text-[16px] md:text-[14px] font-normal text-primary right-[60px] bottom-[95px]">
-                    {" "}
-                    QC
-                  </span>
-                  <p className="text-white text-base leading-relaxed">
-                    50+ full-time senior inspectors in Bangladesh and Southeast
-                    Asian countries, as well as Europe countries
-                  </p>
-                </div>
-              </div>
-            </div>
             </div>
           </Container>
         </section>
@@ -193,9 +194,12 @@ const About = () => {
             <h2 className="text-3xl text-primary  md:text-4xl font-semibold mb-6">
               Ready to Secure Your Product Quality?
             </h2>
-            <button className="px-8 py-3 rounded-full bg-primary text-white font-medium hover:bg-transparent hover:text-primary border border-primary transition cursor-pointer">
+            <Link
+              href="/contact"
+              className="px-8 py-3 rounded-full bg-primary text-white font-medium hover:bg-transparent hover:text-primary border border-primary transition cursor-pointer"
+            >
               Contact Us Today
-            </button>
+            </Link>
           </Container>
         </div>
       </section>
