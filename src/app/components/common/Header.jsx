@@ -40,7 +40,7 @@ const Header = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <Container>
-            <div className="relative flex items-center justify-between px-2 py-2 backdrop-blur-md shadow-md rounded-xl">
+            <div className="relative flex items-center justify-between px-2 backdrop-blur-md shadow-md rounded-xl">
               <div>
                 <Link href="/">
                   <Image src="/logo.jpg" alt="logo" width={150} height={100} />
@@ -54,10 +54,10 @@ const Header = () => {
                 )}
               </div>
               <ul className="hidden lg:flex items-center gap-8 font-semibold text-primary tracking-wide">
-                <li className="group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
+                <li className="group flex items-center  gap-1 cursor-pointer hover:text-white transition-colors duration-300">
                   <Link href="/">HOME</Link>
                 </li>
-                <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
+                <li className="relative group py-4 flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
                   <Link href="/service">
                     SERVICES{" "}
                     <FiChevronDown
@@ -65,7 +65,10 @@ const Header = () => {
                       className="inline transition-transform duration-300 group-hover:rotate-180"
                     />
                   </Link>
-                  <div className="absolute left-0 mt-2 hidden text-primary min-w-[420px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
+                  <div
+                    className="absolute left-0 mt-2 hidden text-primary min-w-[420px] rounded-md bg-gray-800 shadow-lg group-hover:block 
+                  top-[45px]"
+                  >
                     <ul className="flex flex-col py-2 gap-2">
                       <li className="px-4 hover:text-white">
                         <Link
@@ -95,7 +98,7 @@ const Header = () => {
                   </div>
                 </li>
 
-                <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
+                <li className="relative group py-4 flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
                   <Link href="/product">
                     PRODUCTS
                     <FiChevronDown
@@ -103,7 +106,7 @@ const Header = () => {
                       className="inline transition-transform duration-300 group-hover:rotate-180"
                     />
                   </Link>
-                  <div className="absolute left-0 mt-2 hidden text-primary min-w-[350px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
+                  <div className="absolute left-0 mt-2 hidden text-primary min-w-[350px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[45px]">
                     <ul className="flex flex-col py-2 gap-2">
                       <li className="px-4 hover:text-white">
                         <a
@@ -162,7 +165,7 @@ const Header = () => {
                   </div>
                 </li>
 
-                <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
+                <li className="relative group py-4 flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
                   <Link href="/resourses">
                     RESOURCES{" "}
                     <FiChevronDown
@@ -170,7 +173,7 @@ const Header = () => {
                       className="inline transition-transform duration-300 group-hover:rotate-180"
                     />
                   </Link>
-                  <div className="absolute left-0 mt-2 hidden text-primary min-w-[220px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
+                  <div className="absolute left-0 mt-2 hidden text-primary min-w-[220px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[45px]">
                     <ul className="flex flex-col py-2 gap-2">
                       <li className="px-4 hover:text-white">
                         <Link
@@ -208,7 +211,7 @@ const Header = () => {
                   </div>
                 </li>
 
-                <li className="relative group flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
+                <li className="relative group py-4 flex items-center gap-1 cursor-pointer hover:text-white transition-colors duration-300">
                   <Link href="/about">
                     ABOUT US{" "}
                     <FiChevronDown
@@ -216,11 +219,11 @@ const Header = () => {
                       className="inline transition-transform duration-300 group-hover:rotate-180"
                     />
                   </Link>
-                  <div className="absolute left-0 mt-2 hidden text-primary min-w-[320px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[15px]">
+                  <div className="absolute left-0 mt-2 hidden text-primary min-w-[320px] rounded-md bg-gray-800 shadow-lg group-hover:block top-[45px]">
                     <ul className="flex flex-col py-2 gap-2">
                       <li className="px-4 hover:text-white">
                         <a className="hover:underline" href="#">
-                          Company
+                          Our Management
                         </a>
                       </li>
                       {/* <li className="px-4 hover:text-white">
@@ -247,7 +250,7 @@ const Header = () => {
                   </div>
                 </li>
 
-                <li className="cursor-pointer hover:text-white transition-colors duration-300">
+                <li className="cursor-pointer py-4 hover:text-white transition-colors duration-300">
                   <Link href="/contact">CONTACT</Link>
                 </li>
               </ul>
@@ -262,12 +265,20 @@ const Header = () => {
                 <div className="flex items-center text-primary gap-1 cursor-pointer hover:text-white transition">
                   English <FiChevronDown size={16} />
                 </div>
-                <button className=" hover:before:bg-primary rounded-full relative h-[40px] w-24 overflow-hidden border-2 border-white bg-gray-900 px-3 text-white shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-white hover:shadow-gray-300 hover:before:left-0 hover:before:w-full">
-                  <span className="relative z-10 "> LOG IN</span>
-                </button>
-                <button className=" hover:before:bg-primary rounded-full relative h-[40px] w-24 overflow-hidden border-2 border-white bg-gray-900 px-3 text-white shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-white hover:shadow-gray-300 hover:before:left-0 hover:before:w-full">
+                <Link
+                  href="/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center hover:before:bg-primary rounded-full relative h-[40px] w-24 overflow-hidden border-2 border-white bg-gray-900 px-3 text-primary shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-white hover:shadow-gray-300 hover:before:left-0 hover:before:w-full"
+                >
+                  <span className="relative z-10">LOG IN</span>
+                </Link>
+                <Link
+                  href="/signup"
+                  className="flex items-center justify-center hover:before:bg-primary rounded-full relative h-[40px] w-24 overflow-hidden border-2 border-white bg-gray-900 px-3 text-primary shadow-2xl transition-all before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:h-full before:w-0 before:bg-white before:transition-all before:duration-500 hover:text-white hover:shadow-gray-300 hover:before:left-0 hover:before:w-full"
+                >
                   <span className="relative z-10 "> SIGN UP</span>
-                </button>
+                </Link>
               </div>
               {/* mobile view */}
               {navbarshow && (
@@ -463,7 +474,7 @@ const Header = () => {
                         <ul className="flex flex-col py-2 gap-2">
                           <li className="px-4 hover:text-white">
                             <a className="hover:underline" href="#">
-                              Company
+                              Our Management
                             </a>
                           </li>
                           {/* <li className="px-4 hover:text-white">

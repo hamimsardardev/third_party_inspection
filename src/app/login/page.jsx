@@ -17,7 +17,7 @@ const Login = () => {
                       <p className="text-[15px] mt-6 text-white">
                         Don't have an account{" "}
                         <a
-                          href="javascript:void(0);"
+                          href="/signup"
                           className="text-blue-600 font-medium hover:underline ml-1 whitespace-nowrap"
                         >
                           Register here
