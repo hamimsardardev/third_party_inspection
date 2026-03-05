@@ -130,8 +130,8 @@ const Samplereport_part = () => {
         <Container>
           <div>
             {/* Header / Hero Section */}
-            <div className="text-center mb-12">
-              <h1 className="text-[38px] font-bold tracking-tight text-primary sm:text-[24px]">
+            <div className="text-center mb-12 ">
+              <h1 className=" text-[18px] md:text-[24px] lg:text-[30px] font-medium lg:font-bold tracking-tight text-primary">
                 Can't find the inspection report you need? Please leave a
                 message to let us know your requirements.
               </h1>

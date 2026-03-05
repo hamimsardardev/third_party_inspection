@@ -41,7 +41,7 @@ const FactoryAudit = () => {
       </section>
       <section>
         <Container>
-          <div className="py-20 px-6 grid lg:grid-cols-2 gap-12 items-center border-t-2 border-gray-300">
+          <div className="py-20 px-6 grid lg:grid-cols-2 gap-12 items-center">
             <div className="relative w-full h-[350px] rounded-xl overflow-hidden shadow-lg">
               <Image
                 src="/vr-audit.jpg"
@@ -120,7 +120,7 @@ const FactoryAudit = () => {
       {/* ================= WHY VR AUDIT ================= */}
       <section className="py-20">
         <Container>
-          <div className=" px-6 grid lg:grid-cols-2 gap-12 items-center">
+          <div className=" px-6 grid lg:grid-cols-2 gap-12 items-center border-t-2 border-gray-300">
             {/* Left Content */}
             <div>
               <h2 className="text-3xl text-white font-bold mb-8">
