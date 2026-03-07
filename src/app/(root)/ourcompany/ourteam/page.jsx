@@ -8,8 +8,8 @@ const OurTeam = () => {
     <div>
       <section>
         {/* ================= HERO BANNER ================= */}
-        <div className="bg-[url('/aboutbanner.png')] bg-cover bg-center ">
-          <div className="bg-black/60 py-[240px]">
+        <div className="bg-[url('/ourteam.png')] bg-cover bg-center ">
+          <div className="bg-black/60 py-[300px]">
             <Container>
               <div className="flex flex-col justify-center items-center text-center px-6">
                 <h1 className="text-3xl md:text-5xl font-semibold text-primary mb-6">
@@ -32,8 +32,8 @@ const OurTeam = () => {
                 {/* Heading */}
                 <div className="mb-12">
                   <h2 className="text-4xl font-bold text-white">Our Team</h2>
-                  <p className="text-primary uppercase text-sm mt-2 tracking-wider">
-                    With over 100 years of combined experience, we've got a
+                  <p className="text-primary uppercase text-[18px] mt-2 tracking-wider">
+                    With over 1 years of combined experience, we've got a
                     well-seasoned team at the helm.
                   </p>
                 </div>
@@ -56,7 +56,7 @@ const OurTeam = () => {
 
                     <p className="text-white text-[20px]">Founder & CEO</p>
 
-                    <p className="text-blue-600 text-[18px] mb-3">
+                    <p className="text-blue-600 text-[18px] mb-3 hover:underline">
                       hossain@pgi-intl.com
                     </p>
 
